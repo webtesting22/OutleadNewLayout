@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination,Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const AgiluxProcess = () => {
 
@@ -56,10 +56,10 @@ const AgiluxProcess = () => {
                                 autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false,
-                                  }}
-                                  effect="fade" 
-                                  speed={900}
-                                  modules={[Autoplay]}
+                                }}
+                                effect="fade"
+                                speed={900}
+                                modules={[Autoplay]}
                                 className="mySwiper"
                             >
                                 {ProcessContent.map((item, index) => (

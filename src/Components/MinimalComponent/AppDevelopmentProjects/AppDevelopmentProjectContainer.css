@@ -42,3 +42,21 @@
     margin-top: 0px;
     margin-bottom: 10px;
 }
+
+@media (max-width:769px){
+    .TopContainer {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 1rem;
+    }
+    .TopContainer h2 {
+        font-size: 40px;
+        font-weight: 100;
+        /* margin: 10px 0px; */
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+}

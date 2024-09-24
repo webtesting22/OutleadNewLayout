@@ -1,0 +1,17 @@
+.AboutInfoContainer {
+    padding: 0rem 8rem;
+}
+
+
+@media (max-width:769px){
+    .AboutInfoContainer {
+        padding: 0rem 1rem;
+    }
+    .TopContainer{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 1rem;
+    }
+}

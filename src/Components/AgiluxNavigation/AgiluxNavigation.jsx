@@ -46,7 +46,7 @@ const AgiluxNavigation = () => {
             children:
                 <>
                     <div className="NavigationChildLinks">
-                        <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
+                        {/* <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
                                     <p>/ UI/UX Design</p>
@@ -59,7 +59,7 @@ const AgiluxNavigation = () => {
                             </>
                         )}>
                             App Development
-                        </p>
+                        </p> */}
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -83,7 +83,7 @@ const AgiluxNavigation = () => {
                                 </div>
                             </>
                         )}>Graphic Designing</p>
-                        <p onClick={() => showChildrenDrawer(
+                        {/* <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
                                     <p>/ Test Enviroment Setup</p>
@@ -93,7 +93,7 @@ const AgiluxNavigation = () => {
                                     <p>/ Test Report and Documentation</p>
                                 </div>
                             </>
-                        )}>QA Automatic Testing</p>
+                        )}>QA Automatic Testing</p> */}
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -111,32 +111,32 @@ const AgiluxNavigation = () => {
         },
         {
             key: '2',
-            label: 'Projects',
-            children:
-                <>
-                    <div className="NavigationChildLinks">
-                        <Link to="/appdevelopment"><p onClick={onClose}>App Development</p></Link>
-                        <Link to="/webdevelopment"><p onClick={onClose}>Web Development</p></Link>
-                    </div>
-                </>,
+            label: <><Link to="outLeadabout/" onClick={onClose}>About Us</Link></>,
+            // children:
+            //     <>
+            //         <div className="NavigationChildLinks">
+            //             <Link to="/appdevelopment"><p onClick={onClose}>App Development</p></Link>
+            //             <Link to="/webdevelopment"><p onClick={onClose}>Web Development</p></Link>
+            //         </div>
+            //     </>,
         },
         {
             key: '3',
-            label: 'Industries',
-            children: <p>Industry Content</p>,
+            label: 'Services',
+            // children: <p>Industry Content</p>,
         },
-        {
-            key: '4',
-            label: 'More Info',
-            children: <p>More Information Content</p>,
-        },
+        // {
+        //     key: '4',
+        //     label: 'More Info',
+        //     children: <p>More Information Content</p>,
+        // },
     ];
 
     return (
         <div className={`AgiluxNavigation ${scrolled ? 'scrolled' : ''}`}>
             <div className="NavigationContainer">
                 <div className="AgiluxLogoAnimated">
-                    <Link to="/"><img src={Outleadlogo} alt="" style={{width:"80px"}} /></Link>
+                    <Link to="/"><img src={Outleadlogo} alt="" style={{ width: "80px" }} /></Link>
                     <div className="ExploreTabs" onClick={showDrawer}>
                         <span>menu</span>
                     </div>

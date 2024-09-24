@@ -49,6 +49,7 @@
 
 .InsideFlexContainer {
     display: flex;
+    width: 100%;
     padding: 2rem 0rem;
     transition: .5s;
     position: relative;
@@ -82,6 +83,11 @@
 }
 
 @media (max-width:679px) {
+    .InsideFlexContainer h5{
+        display: flex;
+        align-items: center;
+    }
+    
     .AgiluxCoreServicesContainer h2 {
         font-size: 40px;
         font-weight: 100;

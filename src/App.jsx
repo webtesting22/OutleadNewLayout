@@ -4,6 +4,7 @@ import './App.css';
 import AgiluxNavigation from './Components/AgiluxNavigation/AgiluxNavigation';
 import AppDevelopment from './Components/MinimalComponent/AppDevelopmentProjects/AppDevelopment';
 import WebDevelopment from './Components/MinimalComponent/WebDevelopmentProjects/WebDevelopment';
+import OutleadAboutUs from './Components/AboutUs/OutleadAboutUs';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
 
         <Route exact path="/" element={<AgiluxHome />} />
+        <Route exact path="/outleadabout" element={<OutleadAboutUs />} />
         <Route exact path="/appdevelopment" element={<AppDevelopment />} />
         <Route exact path="/webdevelopment" element={<WebDevelopment />} />
       </Routes>
