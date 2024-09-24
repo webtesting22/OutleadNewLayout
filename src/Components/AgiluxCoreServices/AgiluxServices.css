@@ -1,0 +1,125 @@
+.AgiluxCoreServicesContainer {
+    padding: 0rem 8rem;
+    background-color: white;
+    color: black;
+}
+
+.AgiluxCoreServicesContainer h4 {
+    color: black;
+}
+
+.AgiluxCoreServicesContainer h2 {
+    font-size: 60px;
+    font-weight: 100;
+    /* margin: 10px 0px; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.AgiluxServicesContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.119);
+    position: relative;
+
+}
+
+.AgiluxServicesContainer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    /* background-color: rgba(0, 0, 0, 0.126); */
+    transition: width 0.5s ease;
+}
+
+.AgiluxServicesContainer:hover .InsideFlexContainer {
+    padding: 3rem 0rem;
+    transition: .5s;
+}
+
+
+.AgiluxServicesContainer:hover::before {
+    width: 100%;
+}
+
+.InsideFlexContainer {
+    display: flex;
+    padding: 2rem 0rem;
+    transition: .5s;
+    position: relative;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.AbsoluteImage {
+    position: absolute;
+    width: 300px;
+    opacity: 0.2;
+    left: 20%;
+}
+
+.InsideFlexContainer h2 {
+    color: black;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 25px;
+    width: 60%;
+}
+
+.InsideFlexContainer>div:first-child {
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.InsideFlexContainer>div:last-child {
+    width: 50%;
+}
+
+@media (max-width:679px) {
+    .AgiluxCoreServicesContainer h2 {
+        font-size: 40px;
+        font-weight: 100;
+        /* margin: 10px 0px; */
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .InsideFlexContainer h2 {
+        color: black;
+        font-weight: 400;
+        margin: 0px;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .AgiluxCoreServicesContainer {
+        padding: 0rem 1rem;
+        background-color: white;
+        color: black;
+    }
+
+    .InsideFlexContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem;
+        transition: .5s;
+    }
+
+    .InsideFlexContainer>div:first-child {
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+    }
+
+    .InsideFlexContainer>div:last-child {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
