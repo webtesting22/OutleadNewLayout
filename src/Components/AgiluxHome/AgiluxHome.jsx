@@ -59,8 +59,8 @@ const AgiluxHome = () => {
     };
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-    
+    }, []);
+
 
     // Handle video ending event to loop smoothly
     const handleVideoEnd = (videoRef) => {
@@ -106,7 +106,7 @@ const AgiluxHome = () => {
     return (
         <>
             <section className="AgiluxHomeContainer">
-                <div style={{ height:"!00%", width: "100%" }}>
+                <div style={{ height: "!00%", width: "100%" }}>
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         {/* PC Video */}
                         <video
