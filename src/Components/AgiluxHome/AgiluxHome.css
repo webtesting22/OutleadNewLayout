@@ -79,9 +79,19 @@
     opacity: 0;
     transition: 1s;
 }
-
+#MobileOnly{
+    display: none;
+}
+#PcOnly{
+    display: block;
+}
 @media (max-width:769px) {
-
+    #PcOnly{
+        display: none;
+    }
+    #MobileOnly{
+        display: block;
+    }
     .AgiluxHomeContainer {
         position: relative;
         display: flex;

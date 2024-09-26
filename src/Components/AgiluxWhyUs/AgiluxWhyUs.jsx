@@ -36,9 +36,9 @@ const AgiluxWhyUs = () => {
 
                         <div className="WhyUsAnimatedCards">
                             {AgiluxWhyUsContent.map((item, index) => (
-                                <div key={index} className="AnimatedCardWhyUs"  data-aos="fade-up"
-                                data-aos-duration="1000"
-                                data-aos-delay={`${index * 100}`}>
+                                <div key={index} className="AnimatedCardWhyUs" data-aos="fade-up"
+                                    data-aos-duration="1000"
+                                    data-aos-delay={`${index * 100}`}>
                                     <p> {item.Title}</p>
                                     <br />
                                     <p>{item.Desctiption}</p>

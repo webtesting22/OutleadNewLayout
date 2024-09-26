@@ -40,77 +40,77 @@ const AgiluxNavigation = () => {
     };
 
     const items = [
+        // {
+        //     key: '1',
+        //     label: 'Services',
+        //     children:
+        //         <>
+        //             <div className="NavigationChildLinks">
+        //                 {/* <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
+        //                     <>
+        //                         <div className="ChildDrawerContent">
+        //                             <p>/ UI/UX Design</p>
+        //                             <p>/ Frontend Development</p>
+        //                             <p>/ Backend Development & API Integration</p>
+        //                             <p>/ Testing and Quality Assurance</p>
+        //                             <p>/ Deployment and Submission</p>
+        //                             <p>/ Post-Launch Support & Maintenance</p>
+        //                         </div>
+        //                     </>
+        //                 )}>
+        //                     App Development
+        //                 </p> */}
+        //                 <p onClick={() => showChildrenDrawer(
+        //                     <>
+        //                         <div className="ChildDrawerContent">
+        //                             <p>/ UI/UX Design</p>
+        //                             <p>/ Frontend Development</p>
+        //                             <p>/ Backend Development</p>
+        //                             <p>/ Content Management System (CMS)</p>
+        //                             <p>/ Testing & Quality Assurence</p>
+        //                             <p>/ Post-Launch Support & Maintence</p>
+        //                         </div>
+        //                     </>
+        //                 )}>Web Development</p>
+        //                 <p onClick={() => showChildrenDrawer(
+        //                     <>
+        //                         <div className="ChildDrawerContent">
+        //                             <p>/ Concept Development & Ideation</p>
+        //                             <p>/ Design Exicution</p>
+        //                             <p>/ Revisions and Final Adjustment</p>
+        //                             <p>/ File Preparation and Delivery</p>
+        //                             <p>/ Client Handoff and Support</p>
+        //                         </div>
+        //                     </>
+        //                 )}>Graphic Designing</p>
+        //                 {/* <p onClick={() => showChildrenDrawer(
+        //                     <>
+        //                         <div className="ChildDrawerContent">
+        //                             <p>/ Test Enviroment Setup</p>
+        //                             <p>/ Unit Testing Automation</p>
+        //                             <p>/ Intregation Testing Automation</p>
+        //                             <p>/ Perfomance Testing Automation</p>
+        //                             <p>/ Test Report and Documentation</p>
+        //                         </div>
+        //                     </>
+        //                 )}>QA Automatic Testing</p> */}
+        //                 <p onClick={() => showChildrenDrawer(
+        //                     <>
+        //                         <div className="ChildDrawerContent">
+        //                             <p>/ SEO Audit & Analysis</p>
+        //                             <p>/ Technical SEO Optimization</p>
+        //                             <p>/ On-Page SEO Optimization</p>
+        //                             <p>/ Content Strategy & Creation</p>
+        //                             <p>/ Off-Page SEO & Link Building</p>
+        //                             <p>/ Ongoing SEO Monitoring & Reporting</p>
+        //                         </div>
+        //                     </>
+        //                 )}>Search Engine Optimization (SEO)</p>
+        //             </div>
+        //         </>,
+        // },
         {
             key: '1',
-            label: 'Services',
-            children:
-                <>
-                    <div className="NavigationChildLinks">
-                        {/* <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
-                            <>
-                                <div className="ChildDrawerContent">
-                                    <p>/ UI/UX Design</p>
-                                    <p>/ Frontend Development</p>
-                                    <p>/ Backend Development & API Integration</p>
-                                    <p>/ Testing and Quality Assurance</p>
-                                    <p>/ Deployment and Submission</p>
-                                    <p>/ Post-Launch Support & Maintenance</p>
-                                </div>
-                            </>
-                        )}>
-                            App Development
-                        </p> */}
-                        <p onClick={() => showChildrenDrawer(
-                            <>
-                                <div className="ChildDrawerContent">
-                                    <p>/ UI/UX Design</p>
-                                    <p>/ Frontend Development</p>
-                                    <p>/ Backend Development</p>
-                                    <p>/ Content Management System (CMS)</p>
-                                    <p>/ Testing & Quality Assurence</p>
-                                    <p>/ Post-Launch Support & Maintence</p>
-                                </div>
-                            </>
-                        )}>Web Development</p>
-                        <p onClick={() => showChildrenDrawer(
-                            <>
-                                <div className="ChildDrawerContent">
-                                    <p>/ Concept Development & Ideation</p>
-                                    <p>/ Design Exicution</p>
-                                    <p>/ Revisions and Final Adjustment</p>
-                                    <p>/ File Preparation and Delivery</p>
-                                    <p>/ Client Handoff and Support</p>
-                                </div>
-                            </>
-                        )}>Graphic Designing</p>
-                        {/* <p onClick={() => showChildrenDrawer(
-                            <>
-                                <div className="ChildDrawerContent">
-                                    <p>/ Test Enviroment Setup</p>
-                                    <p>/ Unit Testing Automation</p>
-                                    <p>/ Intregation Testing Automation</p>
-                                    <p>/ Perfomance Testing Automation</p>
-                                    <p>/ Test Report and Documentation</p>
-                                </div>
-                            </>
-                        )}>QA Automatic Testing</p> */}
-                        <p onClick={() => showChildrenDrawer(
-                            <>
-                                <div className="ChildDrawerContent">
-                                    <p>/ SEO Audit & Analysis</p>
-                                    <p>/ Technical SEO Optimization</p>
-                                    <p>/ On-Page SEO Optimization</p>
-                                    <p>/ Content Strategy & Creation</p>
-                                    <p>/ Off-Page SEO & Link Building</p>
-                                    <p>/ Ongoing SEO Monitoring & Reporting</p>
-                                </div>
-                            </>
-                        )}>Search Engine Optimization (SEO)</p>
-                    </div>
-                </>,
-        },
-        {
-            key: '2',
             label: <><Link to="outLeadabout/" onClick={onClose}>About Us</Link></>,
             // children:
             //     <>
@@ -121,7 +121,7 @@ const AgiluxNavigation = () => {
             //     </>,
         },
         {
-            key: '3',
+            key: '2',
             label: 'Services',
             // children: <p>Industry Content</p>,
         },
@@ -143,9 +143,9 @@ const AgiluxNavigation = () => {
 
                     <Drawer
                         title={<>
-                            <div className="DrawerTitle">
+                            {/* <div className="DrawerTitle">
                                 <h3>Explore</h3>
-                            </div>
+                            </div> */}
                         </>}
                         width={520}
                         closable={false}

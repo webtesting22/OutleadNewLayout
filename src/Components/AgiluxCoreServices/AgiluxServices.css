@@ -1,5 +1,5 @@
 .AgiluxCoreServicesContainer {
-    padding: 0rem 8rem;
+    padding: 0rem 5rem;
     background-color: white;
     color: black;
 }
@@ -19,7 +19,7 @@
 
 .AgiluxServicesContainer {
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-wrap: wrap;
     border-bottom: 1px solid rgba(0, 0, 0, 0.119);
     position: relative;
@@ -38,7 +38,7 @@
 }
 
 .AgiluxServicesContainer:hover .InsideFlexContainer {
-    padding: 3rem 0rem;
+    padding: 3rem 2rem;
     transition: .5s;
 }
 
@@ -50,7 +50,7 @@
 .InsideFlexContainer {
     display: flex;
     width: 100%;
-    padding: 2rem 0rem;
+    padding: 2rem 2rem;
     transition: .5s;
     position: relative;
     justify-content: space-between;
@@ -82,12 +82,17 @@
     width: 50%;
 }
 
+.OutleadServices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width:679px) {
-    .InsideFlexContainer h5{
+    .InsideFlexContainer h5 {
         display: flex;
         align-items: center;
     }
-    
+
     .AgiluxCoreServicesContainer h2 {
         font-size: 40px;
         font-weight: 100;
@@ -96,6 +101,10 @@
         margin-bottom: 10px;
         color: black;
     }
+    .AgiluxServicesContainer:hover .InsideFlexContainer {
+        padding: 3rem 0rem;
+        transition: .5s;
+    }    
 
     .InsideFlexContainer h2 {
         color: black;
@@ -109,6 +118,13 @@
         padding: 0rem 1rem;
         background-color: white;
         color: black;
+    }
+    .AgiluxServicesContainer {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.119);
+        position: relative;
     }
 
     .InsideFlexContainer {

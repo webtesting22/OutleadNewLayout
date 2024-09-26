@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { ssrExportAllKey } from "vite/runtime";
 import BackVideo from "./BackGround.mp4"
+import MobileBack from "./MobileBack.mp4"
 import "./AgiluxHome.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -44,30 +45,37 @@ const TextSlider = [
     },
 ]
 const AgiluxHome = () => {
-    const videoRef = useRef(null);
     const [isFading, setIsFading] = useState(false);
-
     useEffect(() => {
-        if (videoRef.current) {
-            videoRef.current.playbackRate = 1.0; // Adjust the speed if needed
-        }
+        window.scrollTo(0, 0);
     }, []);
-
-    // Handle video time updates to fade out near the end
-    const handleTimeUpdate = () => {
+    const videoRefPc = useRef(null);
+    const videoRefMobile = useRef(null);
+    const handleTimeUpdate = (videoRef) => {
         const video = videoRef.current;
         if (video && video.duration - video.currentTime <= 0.5) { // 0.5 seconds before the video ends
-            setIsFading(true); // Trigger fade out
+            setIsFading(true); // Trigger fade-out
         }
     };
 
     // Handle video ending event to loop smoothly
-    const handleVideoEnd = () => {
+    const handleVideoEnd = (videoRef) => {
         const video = videoRef.current;
         setIsFading(false); // Reset fading
         video.currentTime = 0; // Reset video to the start
         video.play(); // Restart the video
     };
+
+    // Initialize video playback speed
+    useEffect(() => {
+        if (videoRefPc.current) {
+            videoRefPc.current.playbackRate = 1.0; // Adjust the speed if needed
+        }
+        if (videoRefMobile.current) {
+            videoRefMobile.current.playbackRate = 1.0; // Adjust speed for mobile video
+        }
+    }, []);
+
 
     const headings = [
         "We do Lead Generation for B2B Businesses",
@@ -96,14 +104,28 @@ const AgiluxHome = () => {
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
+                        {/* PC Video */}
                         <video
-                            ref={videoRef}
+                            id="PcOnly"
+                            ref={videoRefPc}
                             src={BackVideo}
                             loop={false} // We control the loop manually
                             autoPlay
                             muted
-                            onTimeUpdate={handleTimeUpdate}
-                            onEnded={handleVideoEnd}
+                            onTimeUpdate={() => handleTimeUpdate(videoRefPc)}
+                            onEnded={() => handleVideoEnd(videoRefPc)}
+                            style={{ width: '100%', height: 'auto' }}
+                        />
+                        {/* Mobile Video */}
+                        <video
+                            id="MobileOnly"
+                            ref={videoRefMobile}
+                            src={MobileBack}
+                            loop={false} // We control the loop manually
+                            autoPlay
+                            muted
+                            onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
+                            onEnded={() => handleVideoEnd(videoRefMobile)}
                             style={{ width: '100%', height: 'auto' }}
                         />
                     </div>
@@ -128,7 +150,7 @@ const AgiluxHome = () => {
                                     className="mySwiper"
                                 >
                                     {TextSlider.map((item, index) => (
-                                        <SwiperSlide><div className="TextAnimated" style={{textTransform:"uppercase"}}>{item.text}</div></SwiperSlide>
+                                        <SwiperSlide><div className="TextAnimated" style={{ textTransform: "uppercase" }}>{item.text}</div></SwiperSlide>
                                     ))}
 
                                 </Swiper>
