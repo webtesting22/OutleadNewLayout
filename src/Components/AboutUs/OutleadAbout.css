@@ -1,7 +1,12 @@
 .AboutInfoContainer {
     padding: 0rem 8rem;
 }
-
+.OutleadAboutUsContainer .TopContainer{
+    
+    background-image: url("../../../public/Outlead\ Solutions\ Company\ Portfolio\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+}
 
 @media (max-width:769px){
     .AboutInfoContainer {

@@ -33,7 +33,10 @@
     margin: 5px;
     transition: .5s;
 }
-
+.OutleadClients .TopContainer{
+    background-image: url("../../../public/Outlead\ Solutions\ Company\ Portfolio.png");
+    background-size: cover;
+}
 @media (max-width:769px) {
     #ImageContainerLogo:hover {
         border: 1px solid rgba(0, 0, 0, 0.516);
