@@ -57,6 +57,10 @@ const AgiluxHome = () => {
             setIsFading(true); // Trigger fade-out
         }
     };
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
 
     // Handle video ending event to loop smoothly
     const handleVideoEnd = (videoRef) => {

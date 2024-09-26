@@ -1,18 +1,34 @@
 .AboutInfoContainer {
-    padding: 0rem 8rem;
+    padding: 2rem 8rem;
 }
-.OutleadAboutUsContainer .TopContainer{
-    
+
+.OutleadAboutUsContainer .TopContainer {
+
     background-image: url("../../../public/Outlead\ Solutions\ Company\ Portfolio\ \(1\).png");
     background-size: cover;
     background-position: center;
 }
 
-@media (max-width:769px){
+.BlackTopOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000008a;
+    /* z-index: 5; */
+    left: 0px;
+}
+.TopContainer div h2{
+    position: sticky;
+}
+.TopContainer h4{
+    position: sticky !important;
+}
+@media (max-width:769px) {
     .AboutInfoContainer {
         padding: 0rem 1rem;
     }
-    .TopContainer{
+
+    .TopContainer {
         height: 30vh;
         display: flex;
         flex-direction: column;

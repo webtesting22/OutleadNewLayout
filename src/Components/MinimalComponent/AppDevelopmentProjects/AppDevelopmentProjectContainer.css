@@ -28,11 +28,12 @@
 }
 
 .TopContainer {
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0rem 8rem;
+    position: relative;
 }
 
 .TopContainer h2 {
