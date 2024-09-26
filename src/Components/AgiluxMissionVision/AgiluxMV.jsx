@@ -9,7 +9,7 @@ const AgiluxMV = () => {
                     <div className="SameContainer" data-aos="fade-up"
                         data-aos-duration="1000">
                         <h4>/ Mission</h4>
-                        <br />
+                        {/* <br /> */}
                         <div className="OurMissionDetails">
 
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
@@ -24,7 +24,7 @@ const AgiluxMV = () => {
                     <div className="SameContainer" data-aos="fade-up"
                         data-aos-duration="1000">
                         <h4>/ Vision</h4>
-                        <br />
+                        {/* <br /> */}
                         <div className="OurMissionDetails">
 
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>

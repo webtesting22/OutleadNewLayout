@@ -122,7 +122,7 @@ const AgiluxNavigation = () => {
         },
         {
             key: '2',
-            label: 'Services',
+            label: <><Link to="/outleadclients" onClick={onClose}>Clients</Link></>,
             // children: <p>Industry Content</p>,
         },
         // {

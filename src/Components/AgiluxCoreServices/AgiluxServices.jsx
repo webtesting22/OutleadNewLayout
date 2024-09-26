@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./AgiluxServices.css"
 import GraphicDesign from "./GraphicDesign.jpeg"
 const AgiluxServices = () => {

@@ -49,6 +49,7 @@ span {
 
 .ant-collapse {
   border: none;
+  background-color: transparent;
 }
 
 .ant-collapse-header-text {
