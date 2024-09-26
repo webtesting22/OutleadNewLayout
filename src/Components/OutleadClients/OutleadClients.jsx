@@ -9,7 +9,7 @@ const OutleadClients = () => {
                     <div className="TopContainer">
                         <h4>/ Our Clients</h4>
                         <div style={{ display: "flex", justifyContent: "space-Between" }}>
-                            <h2>Outlead About</h2>
+                            <h2>Trusted Clients</h2>
                         </div>
                     </div>
                     <div className="ClientsContainer">
