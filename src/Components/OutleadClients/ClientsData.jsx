@@ -103,7 +103,7 @@ const Client = [
         img: "/OutleadClientLogos/gramvaani.png",
     },
     {
-        img: "/OutleadClientLogos/H4Healing.jpg",
+        img: "/OutleadClientLogos/H4Healing.JPG",
     },
     {
         img: "/OutleadClientLogos/happick.png",
@@ -262,4 +262,4 @@ const Client = [
 
 ];
 
-export default Client
+export default Client   
