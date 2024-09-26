@@ -102,7 +102,7 @@ const AgiluxHome = () => {
     return (
         <>
             <section className="AgiluxHomeContainer">
-                <div style={{ overflow: "hidden", width: "100%" }}>
+                <div style={{ height:"!00%", width: "100%" }}>
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         {/* PC Video */}
                         <video
@@ -126,7 +126,7 @@ const AgiluxHome = () => {
                             muted
                             onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
                             onEnded={() => handleVideoEnd(videoRefMobile)}
-                            style={{ width: '100%', height: 'auto' }}
+                            style={{ width: '100%', height: '100%' }}
                         />
                     </div>
                     <div className="BlackOverlay">

@@ -22,8 +22,8 @@
 }
 
 .ant-drawer-content {
-    background: rgb(0 0 0 / 78%) !important;
-    backdrop-filter: blur(20px) !important;
+    background: transparent !important;
+    backdrop-filter: blur(10px) !important;
     color: white;
 
 }

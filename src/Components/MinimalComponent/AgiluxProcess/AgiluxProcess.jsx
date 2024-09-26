@@ -37,7 +37,7 @@ const AgiluxProcess = () => {
     ]
     return (
         <>
-            <section>
+            <section style={{paddingBottom:"0px"}}>
 
                 <div className="BackOverlayImage">
                     <img src={Background} alt="" />

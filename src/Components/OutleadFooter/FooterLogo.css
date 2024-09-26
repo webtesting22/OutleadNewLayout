@@ -1,3 +1,49 @@
-.Footerlogo img{
+.Footerlogo img {
     width: 100px;
+}
+
+.Footerlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.Socialicons svg {
+    color: white;
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+.IconsandEmail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.IconsandEmail>div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.IconsandEmail>div p {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+    width: 222px;
+    padding: 3px 0px;
+}
+
+.IconsandEmail>div:hover hr{
+    width: 222px;
+    transition: .5s;
+}
+
+.IconsandEmail>div hr {
+    opacity: 1;
+    width: 30px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    transition: .5s;
 }

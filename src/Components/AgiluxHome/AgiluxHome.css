@@ -5,9 +5,10 @@
 }
 
 .BlackOverlay {
-    background-color: rgba(0, 0, 0, 0.758);
+    background-color: rgba(0, 0, 0, 0.509);
     position: absolute;
     height: 100%;
+    bottom: 0px;
     width: 100%;
     top: 0px;
 }
@@ -79,24 +80,42 @@
     opacity: 0;
     transition: 1s;
 }
-#MobileOnly{
+
+#MobileOnly {
     display: none;
 }
-#PcOnly{
+
+#PcOnly {
     display: block;
 }
+.ant-drawer-body{
+    display: flex;
+    align-items: center;
+}
+
+.ant-collapse-header-text a,
+.ant-collapse-header-text{
+    font-size: 30px;
+}
 @media (max-width:769px) {
-    #PcOnly{
+    #PcOnly {
         display: none;
     }
-    #MobileOnly{
+
+    #MobileOnly {
         display: block;
     }
+
+    .video-container {
+        height: 100vh;
+        width: 100%;
+    }
+
     .AgiluxHomeContainer {
         position: relative;
         display: flex;
         justify-content: center;
-        height: 80vh;
+        /* height: 80vh; */
     }
 
     .AgiluxHomeContentContainer .mySwiper {
