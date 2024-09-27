@@ -21,8 +21,8 @@ const OutleadFooter = () => {
                             </div>
                         </div>
                         <div className="Socialicons">
-                            <Link to="https://www.instagram.com/outlead_solutions/" target="_blank"></Link><FaInstagram />
-                            <Link to="https://in.linkedin.com/company/outlead-solutions" target="_blank"></Link><CiLinkedin />
+                            <Link to="https://www.instagram.com/outlead_solutions/" target="_blank"><FaInstagram /></Link>
+                            <Link to="https://in.linkedin.com/company/outlead-solutions" target="_blank"><CiLinkedin /></Link>
                             <Link to="https://wa.me/919328683614?text=Hi%20Outlead%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20graphics%20design%20and%20web%20development%20services"><FaWhatsapp /></Link>
                         </div>
 
