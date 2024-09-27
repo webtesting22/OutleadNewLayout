@@ -44,14 +44,15 @@
     margin-bottom: 10px;
 }
 
-@media (max-width:769px){
+@media (max-width:769px) {
     .TopContainer {
-        height: 60vh;
+        height: 40vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         padding: 0rem 1rem;
     }
+
     .TopContainer h2 {
         font-size: 40px;
         font-weight: 100;
@@ -59,5 +60,5 @@
         margin-top: 0px;
         margin-bottom: 10px;
     }
-    
+
 }
