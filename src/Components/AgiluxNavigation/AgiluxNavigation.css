@@ -46,7 +46,7 @@
     position: sticky;
     top: 19px;
     width: 100%;
-    padding:0rem 0rem;
+    padding: 0rem 0rem;
     transform: translateY(-20px);
     /* Smooth transition upwards */
     background-color: rgba(0, 0, 0, 0.865);
