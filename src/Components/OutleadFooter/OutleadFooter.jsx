@@ -16,14 +16,14 @@ const OutleadFooter = () => {
                     <div className="IconsandEmail">
                         <div className="EmailContainer">
                             <div style={{ width: "222px" }}>
-                                <Link to="/"><p>Info@Outleadsolutions.com</p></Link>
+                                <Link to="mailto:Info@Outleadsolutions.com"><p>Info@Outleadsolutions.com</p></Link>
                                 <hr />
                             </div>
                         </div>
                         <div className="Socialicons">
-                            <FaInstagram />
-                            <CiLinkedin />
-                            <FaWhatsapp />
+                            <Link to="https://www.instagram.com/outlead_solutions/" target="_blank"></Link><FaInstagram />
+                            <Link to="https://in.linkedin.com/company/outlead-solutions" target="_blank"></Link><CiLinkedin />
+                            <Link to="https://wa.me/919328683614?text=Hi%20Outlead%20Solutions,%20I%20would%20like%20to%20inquire%20about%20your%20graphics%20design%20and%20web%20development%20services"><FaWhatsapp /></Link>
                         </div>
 
 
