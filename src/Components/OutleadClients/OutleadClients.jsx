@@ -1,19 +1,19 @@
-import React ,{useEffect}from "react";
+import React, { useEffect } from "react";
 import "./OutleadClients.css"
 import Client from "./ClientsData";
 const OutleadClients = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-    
+    }, []);
+
     return (
         <>
-            <section style={{paddingTop:"0px"}}>
+            <section style={{ paddingTop: "0px" }}>
                 <div className="OutleadClients">
                     <div className="TopContainer">
-                    <div className="BlackTopOverlay">
+                        <div className="BlackTopOverlay">
 
-</div>
+                        </div>
                         <h4>/ Our Clients</h4>
                         <div style={{ display: "flex", justifyContent: "space-Between" }}>
                             <h2>Trusted Clients</h2>
