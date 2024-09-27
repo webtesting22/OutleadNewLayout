@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./AgiluxProcess.css"
-import Background from "./Background.jpg"
+// import Background from "./ProcessBack.avif"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -37,10 +37,10 @@ const AgiluxProcess = () => {
     ]
     return (
         <>
-            <section style={{paddingBottom:"0px"}}>
+            <section style={{ paddingBottom: "0px" }}>
 
                 <div className="BackOverlayImage">
-                    <img src={Background} alt="" />
+                    {/* <img src={Background} alt="" /> */}
                     <div className="BlackOverlay">
 
                     </div>
