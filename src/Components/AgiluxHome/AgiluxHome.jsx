@@ -159,7 +159,7 @@ const AgiluxHome = () => {
 
                                 </Swiper>
                                 <div className="ContactUsbtn">
-                                    <a href=""><p>Contact&nbsp;us</p><FaArrowRightLong /></a>
+                                    <a href="tel:9328683614"><p>Contact&nbsp;us</p><FaArrowRightLong /></a>
                                 </div>
                             </div>
                         </div>
