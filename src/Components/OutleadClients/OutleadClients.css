@@ -1,73 +1,94 @@
 .ClientsContainer {
-    padding: 0rem 2rem;
+  padding: 0rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.ClientsContainer img {
+  width: 250px;
+  aspect-ratio: 3/2;
+  margin: 10px;
+  object-fit: contain;
+  /* background-color: white; */
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.ClientsContainer img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#ImageContainerLogo {
+  border: 1px solid rgb(231, 231, 231);
+  margin: 5px;
+  transition: 0.5s;
+}
+
+#ImageContainerLogo:hover {
+  border: 1px solid rgba(0, 0, 0, 0.516);
+  margin: 5px;
+  transition: 0.5s;
+}
+.OutleadClients .TopContainer {
+  background-image: url("./ClientPoseter.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  height: 60vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 8rem;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 769px) {
+  .OutleadClients .TopContainer {
+    background-image: url("./ClientPoseter.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    height: 40vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: end;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  #ImageContainerLogo:hover {
+    border: 1px solid rgba(0, 0, 0, 0.516);
+    margin: 0px;
+    transition: 0.5s;
+  }
+  #ImageContainerLogo {
+    width: 49%;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 0px;
+  }
+
+  .ClientsContainer img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    margin: 0px;
+    object-fit: contain;
+    /* background-color: white; */
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+
+  .ClientsContainer {
+    padding: 0rem 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: white;
     padding-bottom: 2rem;
-}
-
-.ClientsContainer img {
-    width: 250px;
-    aspect-ratio: 3/2;
-    margin: 10px;
-    object-fit: contain;
-    /* background-color: white; */
-    border-radius: 4px;
-    transition: .5s;
-}
-
-.ClientsContainer img:hover {
-    transform: scale(1.1);
-    transition: .5s;
-}
-
-#ImageContainerLogo {
-    border: 1px solid rgb(231, 231, 231);
-    margin: 5px;
-    transition: .5s;
-}
-
-#ImageContainerLogo:hover {
-    border: 1px solid rgba(0, 0, 0, 0.516);
-    margin: 5px;
-    transition: .5s;
-}
-.OutleadClients .TopContainer{
-    background-image: url("./ClientPoseter.jpeg");
-    background-size: cover;
-   background-position: center;
-}
-@media (max-width:769px) {
-    #ImageContainerLogo:hover {
-        border: 1px solid rgba(0, 0, 0, 0.516);
-        margin: 0px;
-        transition: .5s;
-    }
-    #ImageContainerLogo {
-        width: 49%;
-        border: 1px solid rgb(231, 231, 231);
-        margin: 0px;
-    }
-
-    .ClientsContainer img {
-        width: 100%;
-        aspect-ratio: 3/2;
-        margin: 0px;
-        object-fit: contain;
-        /* background-color: white; */
-        border-radius: 4px;
-        transition: .5s;
-    }
-
-    .ClientsContainer {
-        padding: 0rem 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: white;
-        padding-bottom: 2rem;
-    }
-
-
+  }
 }
