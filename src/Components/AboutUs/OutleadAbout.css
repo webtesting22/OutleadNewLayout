@@ -83,7 +83,8 @@
 #PhotoshopIconSet{
     width: 150px;
     position: absolute;
-    left: 2rem;
+    left: 0rem;
+    margin-top: -20px;
 }
 .ParatextAbout{
   width: 100%;
@@ -181,7 +182,7 @@
   .AboutUsContent h1{
     color: black;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   position: relative;
   line-height: 3rem;

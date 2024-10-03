@@ -145,8 +145,7 @@ const OutleadAboutUs = () => {
                         <div className="TopContainer">
                             <h4 style={{ position: "sticky" }} className="Slashaheading">/ About Us</h4>
                             <div style={{ display: "flex", justifyContent: "space-Between" }}>
-                                <h2>Be ready to solve <br />
-                                    problems when called</h2>
+                                <h2>Outlead Solutions</h2>
                             </div>
                         </div>
                         <div data-aos="fade-up"
@@ -189,8 +188,8 @@ const OutleadAboutUs = () => {
                                                 <ul>
                                                     {ProgressBarContent.map((item, index) => (
                                                         <div key={index} data-aos="fade-up"
-                                                        data-aos-duration="1000"
-                                                        data-aos-delay={`${index * 100}`}>
+                                                            data-aos-duration="1000"
+                                                            data-aos-delay={`${index * 100}`}>
                                                             <li>
                                                                 {item.ProgressTitle}
                                                             </li>
