@@ -68,7 +68,7 @@
   font-size: 7rem;
   text-transform: uppercase;
   position: relative;
-  line-height: 10rem;
+  line-height: 8rem;
 }
 .AboutUsContent p{
   color: black;
@@ -83,12 +83,13 @@
 #PhotoshopIconSet{
     width: 150px;
     position: absolute;
-    left: -2rem;
+    left: 2rem;
 }
 .ParatextAbout{
   width: 100%;
   display: flex;
   justify-content: end;
+  position: relative;
 }
 .ParatextAbout p{
   width: 40%;
@@ -146,8 +147,14 @@
   margin: 0px;
   background-color: black;
 }
-
+#ArrowIcon{
+  position: absolute;
+  width: 300px;
+  left: 40%;
+  top: -60%;
+}
 @media (min-width:769px) and (max-width:1200px){
+ 
   .AboutUsContent h1{
     color: black;
   font-weight: 600;
@@ -158,6 +165,13 @@
   }
 }
 @media (max-width: 769px) {
+  #ArrowIcon{
+    position: absolute;
+    width: 300px;
+    left: 40%;
+    top: -60%;
+    display: none;
+  }
   #PhotoshopIconSet{
     width: 20%;
     margin-top: -1rem;

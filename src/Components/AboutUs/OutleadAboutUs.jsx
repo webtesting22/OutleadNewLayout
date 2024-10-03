@@ -5,6 +5,7 @@ import Photoshop from "./Photoshop.json"
 import Lottie from "lottie-react";
 import { Row, Col } from "antd";
 import WhatisOutleadIcon from "./WhatisOutleadIcon.json"
+import AnimatedArrow from "./AnimatedArrow.json"
 const OutleadAboutUs = () => {
     const [isFading, setIsFading] = useState(false);
     useEffect(() => {
@@ -90,7 +91,7 @@ const OutleadAboutUs = () => {
             width: "90%"
         }
     ];
-    
+
 
     return (
         <>
@@ -126,8 +127,16 @@ const OutleadAboutUs = () => {
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                 /> <br /> Creativity Fueled</h1>
+
                             <div className="ParatextAbout" data-aos="fade-up"
                                 data-aos-duration="2000">
+                                <Lottie
+                                    data-aos="fade-up"
+                                    data-aos-duration="1000"
+                                    animationData={AnimatedArrow}
+                                    loop={true}
+                                    id="ArrowIcon"
+                                />
                                 <p>We are an innovative marketing company, dedicated to helping businesses succeed through tailored strategies and captivating campaigns.</p>
                             </div>
                         </div>
@@ -179,12 +188,14 @@ const OutleadAboutUs = () => {
                                             <div className="progressBarContainer">
                                                 <ul>
                                                     {ProgressBarContent.map((item, index) => (
-                                                        <div key={index}>
+                                                        <div key={index} data-aos="fade-up"
+                                                        data-aos-duration="1000"
+                                                        data-aos-delay={`${index * 100}`}>
                                                             <li>
                                                                 {item.ProgressTitle}
                                                             </li>
                                                             <div className="progressShow">
-                                                                <hr  style={{ width: item.width }}/>
+                                                                <hr style={{ width: item.width }} />
                                                             </div>
                                                         </div>
                                                     ))}
