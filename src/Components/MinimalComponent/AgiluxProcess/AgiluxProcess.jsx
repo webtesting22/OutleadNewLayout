@@ -46,7 +46,7 @@ const AgiluxProcess = () => {
                     </div>
                     <div className="AgiluxProcessContainer">
                         <div className="anothercontainer">
-                            <h4>/ Our Process</h4>
+                            <h4 className="Slashaheading">/ Our Process</h4>
                             {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>
                             </div> */}

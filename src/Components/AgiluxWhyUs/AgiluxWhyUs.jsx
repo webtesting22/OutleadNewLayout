@@ -28,7 +28,7 @@ const AgiluxWhyUs = () => {
         <>
             <section>
                 <div className="WhyUsAgilux">
-                    <h4>/ WHY US?</h4>
+                    <h4 className="Slashaheading">/ WHY US?</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                         <h2>Your Success</h2>
                     </div>

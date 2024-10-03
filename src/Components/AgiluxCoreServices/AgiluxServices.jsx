@@ -44,7 +44,7 @@ const AgiluxServices = () => {
             Description: "Photoshoot services for businesses, offering professional images of products, properties, and events to enhance branding, marketing materials, and online presence."
         },
         {
-            Title: "Cold Emailing",
+            Title: "COLD EMAILING",
             keyWord: "Cold Email Marketing Services",
             Description: <>
                 <ul>
@@ -67,7 +67,7 @@ const AgiluxServices = () => {
         <>
             <section style={{ backgroundColor: "white" }}>
                 <div className="AgiluxCoreServicesContainer">
-                    <h4 style={{ color: "black", fontWeight: "400" }}>/ Our Services</h4>
+                    <h4 style={{ color: "#ffa401", fontWeight: "400" }} className="Slashaheading">/ Our Services</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                         <h2>Business Solutions</h2>
                     </div>
@@ -86,7 +86,7 @@ const AgiluxServices = () => {
                                         {item.Description}
                                         <br />
                                         <br />
-                                        <p>/ {item.keyWord}</p>
+                                        <span>/ {item.keyWord}</span>
                                     </div>
                                 </div>
                             </div>

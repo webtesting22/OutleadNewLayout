@@ -73,3 +73,10 @@ span {
 section{
   padding: 2rem 0rem;
 }
+
+.Slashaheading{
+color: #ffa401;
+}
+.ant-drawer-content-wrapper{
+  width: 1000px !important;
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { ssrExportAllKey } from "vite/runtime";
-import BackVideo from "./BackGround.mp4"
+import BackVideo from "./AnimatedVideo.mp4"
 import MobileBack from "./MobileBack.mp4"
 import "./AgiluxHome.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,6 +15,7 @@ import AgiluxMV from "../AgiluxMissionVision/AgiluxMV";
 import AgiluxServices from "../AgiluxCoreServices/AgiluxServices";
 import AgiluxWhyUs from "../AgiluxWhyUs/AgiluxWhyUs";
 import AgiluxProcess from "../MinimalComponent/AgiluxProcess/AgiluxProcess";
+import DesignsIcon1 from "./DesignsIcon1.png"
 const TextSlider = [
     {
         text: "LINKEDIN OUTBOUND"
@@ -137,11 +138,15 @@ const AgiluxHome = () => {
 
                     </div>
                     <div className="AgiluxHomeContentContainer">
-                        <div>
-                            <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
-                                {headings[currentHeading]}
-                            </h1>
-                            <div style={{ display: "flex", alignContent: "center" }}>
+                        <div style={{width:"100%",display:"flex",alignItems:"end",justifyContent:"space-between"}}>
+                            {/* <div>
+                                <img src={DesignsIcon1} alt="" />
+                            </div> */}
+                            {/* <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
+                            Outlead Solutions
+                            Business Development Agency
+                            </h1> */}
+                            <div style={{ display: "flex", alignContent: "center",width:"100%"}} id="SwiperText">
                                 /&nbsp;&nbsp;
                                 <Swiper
                                     direction={'vertical'}

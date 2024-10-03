@@ -14,7 +14,7 @@ const OutleadClients = () => {
                         <div className="BlackTopOverlay">
 
                         </div>
-                        <h4>/ Our Clients</h4>
+                        <h4 className="Slashaheading">/ Our Clients</h4>
                         <div style={{ display: "flex", justifyContent: "space-Between" }}>
                             <h2>Trusted Clients</h2>
                         </div>

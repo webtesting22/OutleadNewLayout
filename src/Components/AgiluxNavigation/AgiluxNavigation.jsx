@@ -3,6 +3,7 @@ import "./AgiluxNavigation.css";
 import { Button, Drawer, Collapse } from 'antd';
 import { Link } from "react-router-dom";
 import Outleadlogo from "../../../public/Outleadlogo.png"
+import NavigationInside from "./NavigationInside.jpg"
 const AgiluxNavigation = () => {
     const [open, setOpen] = useState(false);
     const [childrenDrawer, setChildrenDrawer] = useState(false);
@@ -125,6 +126,11 @@ const AgiluxNavigation = () => {
             label: <><Link to="/outleadclients" onClick={onClose}>Clients</Link></>,
             // children: <p>Industry Content</p>,
         },
+        {
+            key: '3',
+            label: <><Link to="/" onClick={onClose}>Services</Link></>,
+            // children: <p>Industry Content</p>,
+        },
         // {
         //     key: '4',
         //     label: 'More Info',
@@ -142,6 +148,7 @@ const AgiluxNavigation = () => {
                     </div>
 
                     <Drawer
+                    className={open ? "ant-drawer-open" : ""}
                         title={<>
                             {/* <div className="DrawerTitle">
                                 <h3>Explore</h3>
@@ -155,7 +162,20 @@ const AgiluxNavigation = () => {
                         <button onClick={onClose}>
                             X
                         </button>
-                        <Collapse accordion items={items} />
+                        <div className="AnimatedNavigationAnimation">
+                            <div>
+                                <Collapse accordion items={items} />
+                            </div>
+                            <div >
+                                <img src={NavigationInside} alt="" />
+                                <div className="ImageBottomContent">
+                                    <p>/ Let's work!</p>
+                                    <h3>Get your project done
+                                    </h3>
+                                    <p>Looking for collaboration for your <span>next project</span>? Do not hesitate to contact us to <span>👋 say hello</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </Drawer>
 
                     <Drawer

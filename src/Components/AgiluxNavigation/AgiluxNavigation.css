@@ -114,6 +114,14 @@
     margin: 10px 0px;
 }
 
+.AnimatedNavigationAnimation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
 @media (max-width:768px) {
     .AgiluxLogoAnimated {
         display: flex;
@@ -121,4 +129,121 @@
         align-items: center;
         padding: 0rem 1rem;
     }
+
+    .AnimatedNavigationAnimation {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+
+    }
+}
+
+
+
+.AnimatedNavigationAnimation>div {
+    width: 100%;
+    /* background-color: ; */
+    height: 70%;
+
+    display: flex;
+}
+
+.AnimatedNavigationAnimation>div:first-child {
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-left: none;
+    display: flex;
+    align-items: center;
+}
+
+.ant-drawer-body {
+    padding: 0px !important;
+}
+
+.AnimatedNavigationAnimation>div:first-child .ant-collapse {
+    width: 100%;
+    /* padding: 20px 30px; */
+}
+
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item {
+    padding: 20px 30px;
+    border-radius: 0px;
+}
+
+/* Parent container for the collapse items */
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item {
+    position: relative;
+    /* Ensure positioning context for the pseudo-element */
+    overflow: hidden;
+    /* Hide the overflow for the background fill effect */
+}
+
+/* Create the bottom-to-top fill effect using ::before */
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    /* Start below the item */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* Fill color */
+    z-index: 0;
+    /* Place it behind the content */
+    transition: top 0.5s ease-in-out;
+    /* Smooth transition */
+}
+
+/* Change the fill effect on hover */
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item:hover::before {
+    top: 0;
+    /* Move the fill from bottom to top */
+}
+
+/* Style the link inside with color and ensure it appears above the fill */
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item a {
+    position: relative;
+    z-index: 1;
+    /* Ensure the text stays above the fill effect */
+    color: white;
+    /* Initial text color */
+    transition: color 0.5s ease-in-out;
+    /* Smooth color change */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Change the text color on hover */
+.AnimatedNavigationAnimation>div:first-child .ant-collapse-item:hover a {
+    color: black;
+    /* Change text color when background fills */
+}
+
+
+.AnimatedNavigationAnimation>div:last-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.11);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+    display: flex;
+    flex-direction: column;
+}
+
+.AnimatedNavigationAnimation>div:last-child img {
+    width: 100%;
+    display: flex;
+    align-items: start !important;
+}
+
+.AnimatedNavigationAnimation>div:last-child p:last-child {
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.AnimatedNavigationAnimation>div:last-child p:last-child span {
+    color: white;
+    font-weight: 400;
+}
+
+.ImageBottomContent {
+    padding: 20px;
 }

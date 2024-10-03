@@ -1,14 +1,23 @@
 import React from "react";
 import "./AgiluxMV.css"
 import { FaArrowRightLong } from "react-icons/fa6";
+import Lottie from "lottie-react";
+import Animation from "./EyesAnimation.json"
 const AgiluxMV = () => {
     return (
         <>
             <section>
                 <div className="AgiluxMissionVisionContainer">
+                    <div id="LottieIconMV">
+                        <Lottie
+                            animationData={Animation}
+                            loop={true}
+                        className="MV"
+                        />
+                    </div>
                     <div className="SameContainer" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <h4>/ Mission</h4>
+                        <h4 className="Slashaheading">/ Mission</h4>
                         {/* <br /> */}
                         <div className="OurMissionDetails">
 
@@ -23,7 +32,7 @@ const AgiluxMV = () => {
                     <hr />
                     <div className="SameContainer" data-aos="fade-up"
                         data-aos-duration="1000">
-                        <h4>/ Vision</h4>
+                        <h4 className="Slashaheading">/ Vision</h4>
                         {/* <br /> */}
                         <div className="OurMissionDetails">
 

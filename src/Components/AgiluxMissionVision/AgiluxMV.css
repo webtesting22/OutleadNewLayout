@@ -1,5 +1,6 @@
 .AgiluxMissionVisionContainer {
     padding: 0rem 5rem;
+    position: relative;
 }
 
 .OurMissionDetails h2 {
@@ -17,7 +18,18 @@
 .SameContainer {
     padding: 2rem 0rem;
 }
+#LottieIconMV {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -3rem;
+    right: 0px;
 
+}
+#LottieIconMV .MV {
+    max-width: 200px !important;
+    height: 100%;
+}
 @media (max-width:769px) {
     .OurMissionDetails h2 {
         font-size: 40px;
