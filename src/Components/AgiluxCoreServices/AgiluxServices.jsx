@@ -12,7 +12,7 @@ const AgiluxServices = () => {
             Description: "We offer exceptional branding services to elevate your business's identity. Collaborating with you, we craft your unique story and values. Our team conducts in-depth research to ensure your brand is authentic and impactful"
         },
         {
-            Title: "Social Media Marketing",
+            Title: "SOCIAL MEDIA MARKETING",
             keyWord: "Social Media Management Services",
             Description: "OutLead Solutions harmonizes lead generation tools with meticulously planned social media marketing strategies to boost brand engagement."
         },

@@ -48,7 +48,6 @@
     width: 100%;
     padding: 0rem 0rem;
     transform: translateY(-20px);
-    /* Smooth transition upwards */
     background-color: rgba(0, 0, 0, 0.865);
     /* Sticky background */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

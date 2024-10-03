@@ -18,31 +18,31 @@ import AgiluxProcess from "../MinimalComponent/AgiluxProcess/AgiluxProcess";
 import DesignsIcon1 from "./DesignsIcon1.png"
 const TextSlider = [
     {
+        text: "BRANDING"
+    },
+    {
+        text: "SOCIAL MEDIA MARKETING"
+    },
+    {
         text: "LINKEDIN OUTBOUND"
-    },
-    {
-        text: "B2B LEAD GENERATION"
-    },
-    {
-        text: "UI-UX DESIGN"
     },
     {
         text: "WEB DEVELOPMENT"
     },
     {
-        text: "Cold Emailing"
+        text: "DIGITAL MARKETING CAMPAIGN"
     },
     {
-        text: "Social Media Marketing"
+        text: "PHOTOSHOOT"
     },
     {
-        text: "Content Writing"
-    },
-    {
-        text: "SEO & GOOGLE ADS"
+        text: "COLD EMAILING"
     },
     {
         text: "SEO & GOOGLE ADS"
+    },
+    {
+        text: "UI & UX Design"
     },
 ]
 const AgiluxHome = () => {
