@@ -12,7 +12,7 @@ const AgiluxMV = () => {
                         <Lottie
                             animationData={Animation}
                             loop={true}
-                        className="MV"
+                            className="MV"
                         />
                     </div>
                     <div className="SameContainer" data-aos="fade-up"
@@ -35,7 +35,6 @@ const AgiluxMV = () => {
                         <h4 className="Slashaheading">/ Vision</h4>
                         {/* <br /> */}
                         <div className="OurMissionDetails">
-
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>
                             </div>

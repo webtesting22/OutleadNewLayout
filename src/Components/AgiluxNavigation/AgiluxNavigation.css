@@ -247,3 +247,15 @@
 .ImageBottomContent {
     padding: 20px;
 }
+.ant-drawer-header{
+    border: none !important;
+}
+
+
+@media (max-width:769px){
+    .AnimatedNavigationAnimation>div:first-child .ant-collapse-item {
+        padding: 20px 30px;
+        border-radius: 0px;
+        margin: 0px;
+    }
+}

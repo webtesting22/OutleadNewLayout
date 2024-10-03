@@ -4,6 +4,8 @@ import { Button, Drawer, Collapse } from 'antd';
 import { Link } from "react-router-dom";
 import Outleadlogo from "../../../public/Outleadlogo.png"
 import NavigationInside from "./NavigationInside.jpg"
+import NavigationAnimationIcon from "./NavigationAnimationIcon.json"
+import Lottie from "lottie-react";
 const AgiluxNavigation = () => {
     const [open, setOpen] = useState(false);
     const [childrenDrawer, setChildrenDrawer] = useState(false);
@@ -148,7 +150,7 @@ const AgiluxNavigation = () => {
                     </div>
 
                     <Drawer
-                    className={open ? "ant-drawer-open" : ""}
+                        className={open ? "ant-drawer-open" : ""}
                         title={<>
                             {/* <div className="DrawerTitle">
                                 <h3>Explore</h3>
@@ -167,7 +169,12 @@ const AgiluxNavigation = () => {
                                 <Collapse accordion items={items} />
                             </div>
                             <div >
-                                <img src={NavigationInside} alt="" />
+                                <div  style={{height:"400px",overflow:"hidden"}}>
+                                    <Lottie
+                                        animationData={NavigationAnimationIcon}
+                                        loop={true}
+                                    />
+                                </div>
                                 <div className="ImageBottomContent">
                                     <p>/ Let's work!</p>
                                     <h3>Get your project done
