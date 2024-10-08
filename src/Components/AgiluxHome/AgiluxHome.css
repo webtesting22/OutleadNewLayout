@@ -111,6 +111,15 @@
     display: none;
 }
 @media (max-width:769px) {
+    .BlackOverlay {
+        background-color: rgba(0, 0, 0, 0.479);
+        position: absolute;
+        height: 100%;
+        bottom: 0px;
+        width: 100%;
+        top: 0px;
+    }
+    
     .HomePageAgiluxHeading{
         display: block;
     }
