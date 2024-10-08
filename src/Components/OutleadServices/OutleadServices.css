@@ -97,6 +97,7 @@
 }
 .ProcessDefined>div h4{
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 @media (max-width:769px){

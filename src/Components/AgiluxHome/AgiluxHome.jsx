@@ -173,7 +173,7 @@ const AgiluxHome = () => {
             </section>
             <AgiluxMV />
             <AgiluxServices />
-            <AgiluxWhyUs />
+            {/* <AgiluxWhyUs /> */}
             <AgiluxProcess />
             {/* <Expertise /> */}
         </>
