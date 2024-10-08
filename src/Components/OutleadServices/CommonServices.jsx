@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 const serviceData = {
     'branding': {
         title: "Branding",
+        image: "https://images.unsplash.com/photo-1661956600684-97d3a4320e45?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
             <>
                 <div >
@@ -63,6 +64,7 @@ const serviceData = {
     },
     'socialMediaMarketing': {
         title: "Social Media Marketing",
+        image:"https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "demo",
     },
     'linkedInOutbound': {
@@ -130,15 +132,19 @@ const CommonServices = () => {
     return (
         <section id='CommonServices'>
             <div className='ImageHeightContainer'>
-                <img
-                    className={`scroll-image ${isImageFixed ? 'fixed' : 'static'}`}
-                    style={{
-                        width: `${imageSize}%`,
-                        borderRadius: `${borderRadius}%`,
-                    }}
-                    src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Example image
-                    alt="OutleadSolutions"
-                />
+                {currentService.image ? ( // Check if there is an image
+                    <img
+                        className={`scroll-image ${isImageFixed ? 'fixed' : 'static'}`}
+                        style={{
+                            width: `${imageSize}%`,
+                            borderRadius: `${borderRadius}%`,
+                        }}
+                        src={currentService.image} // Set the image source
+                        alt="OutleadSolutions"
+                    />
+                ) : (
+                    <p>No image available</p>
+                )}
             </div>
             <div className="TopContainer">
                 <Row className='HeadingTagsContainer'>
