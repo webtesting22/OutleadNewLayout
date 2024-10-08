@@ -121,7 +121,8 @@ const serviceData = {
                         <div>
                             <h4>DEFINING TARGET AUDIENCE
                             </h4>
-                            <p>Our target audience consists of professionals and decision-makers in the [specific industry] who are looking to [solve a particular pain point or challenge].</p>
+                            <p>
+                            We utilize LinkedIn to strategically engage with a well-defined target audience of key decision-makers and professionals. Our personalized outreach, backed by data insights, ensures effective connections that align with your business goals, leading to meaningful engagement and brand visibility.</p>
                         </div>
                         <div>
                             <h4>SCOUTING AND FILTERING
@@ -203,7 +204,11 @@ const serviceData = {
         description:
             <>
                 <div>
-                    <p>We provide complete website development services, from design to maintenance, using frameworks like React.js and Node.js. Our process includes analysis, design, programming, testing, and deployment, ensuring secure, scalable, and high-performance websites.
+                    <p>To promote and drive sales we use data-analytics based targeted
+campaigns through digital marketing channels like social media,
+search engines, and email. We review campaign performance using
+analytics to further make decisions that engage customers.
+
                     </p>
                     <br /><br />
                     <div className='ProcessDefined'>
@@ -248,7 +253,11 @@ const serviceData = {
         description:
             <>
                 <div>
-                    <p>We provide complete website development services, from design to maintenance, using frameworks like React.js and Node.js. Our process includes analysis, design, programming, testing, and deployment, ensuring secure, scalable, and high-performance websites.
+                    <p>Photoshoot services for a company involve creating professional
+images of products, commercial properties, or events, enhancing
+branding and marketing materials, as well as online presence to attract
+customers and showcase offerings effectively.
+
                     </p>
                     <br /><br />
                     <div className='ProcessDefined'>
@@ -300,7 +309,9 @@ const serviceData = {
         description:
             <>
                 <div>
-                    <p>We provide complete website development services, from design to maintenance, using frameworks like React.js and Node.js. Our process includes analysis, design, programming, testing, and deployment, ensuring secure, scalable, and high-performance websites.
+                    <p>We craft targeted email campaigns tailored to your audience,
+personalizing content to drive engagement, conversion and enhance
+your outreach.
                     </p>
                     <br /><br />
                     <div className='ProcessDefined'>
@@ -373,8 +384,7 @@ const serviceData = {
                 </div>
             </div>
         </>,
-    },
-    relatedKeywords: [
+        relatedKeywords: [
         { keyword: "Search engine optimization" },
         { keyword: "Pay-per-click advertising" },
         { keyword: "Keyword research" },
@@ -383,6 +393,8 @@ const serviceData = {
         { keyword: "SEO ranking factors" },
         { keyword: "Conversion tracking" }
     ]
+    },
+    
 };
 
 const CommonServices = () => {
