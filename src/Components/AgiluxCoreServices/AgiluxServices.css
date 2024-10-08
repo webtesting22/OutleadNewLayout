@@ -36,7 +36,13 @@
     /* background-color: rgba(0, 0, 0, 0.126); */
     transition: width 0.5s ease;
 }
-
+.AgiluxServicesContainer a{
+    display: flex;
+    width: 100%;
+}
+.AgiluxServicesContainer ul{
+    margin: 0px;
+}
 .AgiluxServicesContainer:hover .InsideFlexContainer {
     padding: 3rem 2rem;
     transition: .5s;
@@ -89,6 +95,9 @@
 
 .InsideFlexContainer span{
     font-size: 16px;
+    color: black;
+}
+.InsideFlexContainer>div{
     color: black;
 }
 @media (max-width:679px) {

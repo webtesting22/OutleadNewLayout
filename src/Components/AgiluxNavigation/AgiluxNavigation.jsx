@@ -60,36 +60,7 @@ const AgiluxNavigation = () => {
             label: <><Link to="/outleadclients" onClick={onClose}>Clients</Link></>,
             // children: <p>Industry Content</p>,
         },
-        {
-            key: '3',
-            label:<>
-                <Link to="/outleadservices" onClick={onClose}>Services</Link>
-            </>,
-            // label: <>
-            //     <Link onClick={() => showChildrenDrawer(
-            //         <>
-            //             <div className="ChildDrawerContent">
-            //                 <p>/ Branding</p>
-            //                 <p>/ Social Media Marketing</p>
-            //                 <p>/ LinkedIn Outbound</p>
-            //                 <p>/ Web Development</p>
-            //                 <p>/ Digital Marketing Campaign</p>
-            //                 <p>/ Photoshoot</p>
-            //                 <p>/ Cold Emailing</p>
-            //                 <p>/ SEO and Google Ads</p>
-            //             </div>
-            //         </>
-            //     )}
-            //     >SERVICES</Link>
-
-            // </>,
-
-        },
-        // {
-        //     key: '4',
-        //     label: 'More Info',
-        //     children: <p>More Information Content</p>,
-        // },
+        
     ];
 
     return (

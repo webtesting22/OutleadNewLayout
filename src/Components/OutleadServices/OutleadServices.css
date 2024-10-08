@@ -1,84 +1,127 @@
-.serviceContainer {
-  margin: 100px 0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.TitleContainer h2 {
-  color: orange;
+#CommonServices .TopContainer {
+    padding: 8rem 8rem;
 }
 
-.listContainer ul {
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px orange solid;
+.ImageHeightContainer {
+    height: 200vh;
 }
 
-.listContainer ul li {
-  display: inline-block; /* Display items horizontally */
-  font-size: 20px;
-  padding: 10px;
-  text-align: center; /* Center align the image and text */
-  color: orange ;
+@media (max-width:970px) {
+    #CommonServices .TopContainer {
+        padding: 8rem 1rem;
+    }
+
 }
 
-.listContainer ul li img {
-  display: block;
-  width: 100px; /* Adjust image size */
-  height: auto;
-  margin: 0 auto 10px; /* Center and add space below the image */
-}
 
-.listContainer ul li span {
-  display: block;
-  margin-top: 10px; /* Space between image and text */
-}
-.DescriptionContainer p{
-    text-align: center;
-    padding: 10px 200px;
-}
-.clientLeftContainer{
-    border-radius: 30px;
-    border: 1px solid orange;
-}
-.clientRightContainer{
-  text-align: center;
+.scroll-image {
+    position: sticky;
+    top: 15%;
+    width: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 70px;
-    /* padding: 100px; */
+    transition: width 0.3s ease, border-radius 0.3s ease;
 }
-.clientRightContainer h1{
-    color: orange;
-    font-size: 3rem;
+/* .HeadingTagsContainer{
+    display: flex;
+   align-items: start;
+   width: 100%;
+   justify-content: space-between;
+}
+.HeadingTagsContainer>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+ .keywordContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+.keyword{
+    background-color: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.409);
+    margin: 5px 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.keyword:hover{
+    background-color: orange;
+    border: 0.5px solid rgba(255, 255, 255, 0.409);
+    margin: 5px 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: black;
+    transition: .5s;
+}
+.DescriptionContainer{
+    margin-top: 5rem;
+}
+.ProcessDefined{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin-top: 5rem;
+
+}
+.ProcessDefined>div{
+    background-color: transparent;
+    height: 20vh;
+    width: 100%;
+    margin: 0px 20px;
+    position: relative;
+}
+.ProcessDefined>div:first-child{
+    margin-left: 0px;
+}
+.ProcessDefined>div:last-child{
+    margin-right: 0px;
+}
+
+.ProcessDefined div::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 7px;
+    border-radius: 50%;
+    width: 7px;
+    margin-top: -3px;
+
+    /* top: -10px;
+    left: -5px; */
+}
+.ProcessDefined>div h4{
     font-weight: 400;
 }
-.logoContainerClient{
-    /* background-color: white; */
-    /* border-radius: 50%; */
-    width: 150px;
-    /* height: 150px; */
-}
-.logoContainerClient img{
-    object-fit: cover;
-    aspect-ratio: 3/2;
-    width: 100%;
-}
-@media (max-width:576px){
-  .listContainer ul li{
-    padding: 0px;
-  }
-  .listContainer ul li img{
-    width: 40px;
-    margin: 0;
-  }
-  .DescriptionContainer p{
-    padding: 0 20px;
-  }
-  .clientRightContainer{
-    padding: 50px;
-    text-align: center;
-  }
+
+@media (max-width:769px){
+    .ProcessDefined{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid rgba(255, 255, 255, 0.4);
+        border-top: 0px;
+        margin-top: 5rem;
+    
+    }
+    .ProcessDefined>div:first-child{
+        margin-left: 20px;
+    }
+    
+    .ProcessDefined div::before{
+        content: "•";
+    background-color: transparent;
+    position: absolute;
+    top: -8px;
+    left: -25px;
+    }
+    .ProcessDefined>div h4{
+        font-weight: 400;
+        margin: 0px;
+    }
 }
