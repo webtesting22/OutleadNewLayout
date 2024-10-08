@@ -59,11 +59,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+background-color: black;
 }
 
 .AboutUsContent h1 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 7rem;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
   line-height: 8rem;
 }
 .AboutUsContent p{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #AboutUsVideo {
@@ -157,7 +157,7 @@
 @media (min-width:769px) and (max-width:1200px){
  
   .AboutUsContent h1{
-    color: black;
+    color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 4rem;
   text-transform: uppercase;
@@ -166,6 +166,13 @@
   }
 }
 @media (max-width: 769px) {
+  .OutleadAboutUsContainer .TopContainer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
   #ArrowIcon{
     position: absolute;
     width: 300px;
@@ -180,7 +187,7 @@
     left: -1rem;
 }
   .AboutUsContent h1{
-    color: black;
+    color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -188,7 +195,7 @@
   line-height: 3rem;
   }
   .AboutUsContainer {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
   
   .ParatextAbout p{

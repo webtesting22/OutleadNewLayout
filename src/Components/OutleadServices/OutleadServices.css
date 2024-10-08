@@ -10,11 +10,10 @@
     #CommonServices .TopContainer {
         padding: 8rem 1rem;
     }
+
     .ImageHeightContainer {
         height: 100vh;
     }
-    
-
 }
 
 
@@ -26,6 +25,7 @@
     display: flex;
     transition: width 0.3s ease, border-radius 0.3s ease;
 }
+
 /* .HeadingTagsContainer{
     display: flex;
    align-items: start;
@@ -37,12 +37,13 @@
     display: flex;
     flex-wrap: wrap;
 } */
- .keywordContainer{
+.keywordContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
- }
-.keyword{
+}
+
+.keyword {
     background-color: transparent;
     border: 0.5px solid rgba(255, 255, 255, 0.409);
     margin: 5px 5px;
@@ -52,7 +53,8 @@
     text-transform: uppercase;
     transition: .5s;
 }
-.keyword:hover{
+
+.keyword:hover {
     background-color: orange;
     border: 0.5px solid rgba(255, 255, 255, 0.409);
     margin: 5px 5px;
@@ -63,31 +65,36 @@
     color: black;
     transition: .5s;
 }
-.DescriptionContainer{
+
+.DescriptionContainer {
     margin-top: 5rem;
 }
-.ProcessDefined{
+
+.ProcessDefined {
     width: 100%;
     display: flex;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     margin-top: 5rem;
 
 }
-.ProcessDefined>div{
+
+.ProcessDefined>div {
     background-color: transparent;
     height: 20vh;
     width: 100%;
     margin: 0px 20px;
     position: relative;
 }
-.ProcessDefined>div:first-child{
+
+.ProcessDefined>div:first-child {
     margin-left: 0px;
 }
-.ProcessDefined>div:last-child{
+
+.ProcessDefined>div:last-child {
     margin-right: 0px;
 }
 
-.ProcessDefined div::before{
+.ProcessDefined div::before {
     content: "";
     background-color: white;
     position: absolute;
@@ -99,33 +106,36 @@
     /* top: -10px;
     left: -5px; */
 }
-.ProcessDefined>div h4{
+
+.ProcessDefined>div h4 {
     font-weight: 400;
     text-transform: uppercase;
 }
 
-@media (max-width:769px){
-    .ProcessDefined{
+@media (max-width:769px) {
+    .ProcessDefined {
         width: 100%;
         display: flex;
         flex-direction: column;
         border-left: 1px solid rgba(255, 255, 255, 0.4);
         border-top: 0px;
         margin-top: 5rem;
-    
+
     }
-    .ProcessDefined>div:first-child{
+
+    .ProcessDefined>div:first-child {
         margin-left: 20px;
     }
-    
-    .ProcessDefined div::before{
+
+    .ProcessDefined div::before {
         content: "•";
-    background-color: transparent;
-    position: absolute;
-    top: -8px;
-    left: -25px;
+        background-color: transparent;
+        position: absolute;
+        top: -8px;
+        left: -25px;
     }
-    .ProcessDefined>div h4{
+
+    .ProcessDefined>div h4 {
         font-weight: 400;
         margin: 0px;
     }
