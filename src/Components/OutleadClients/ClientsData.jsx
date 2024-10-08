@@ -180,9 +180,9 @@ const Client = [
     {
         img: "/OutleadClientLogos/ClarityComm.JPG",
     },
-    {
-        img: "/OutleadClientLogos/AB Mittal.JPG",
-    },
+    // {
+    //     img: "/OutleadClientLogos/AB Mittal.JPG",
+    // },
     {
         img: "/OutleadClientLogos/EximiusVenture.JPG",
     },

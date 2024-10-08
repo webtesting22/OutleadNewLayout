@@ -1,22 +1,27 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./AgiluxServices.css"
 import GraphicDesign from "./GraphicDesign.jpeg"
+
 const AgiluxServices = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     const OutleadServices = [
         {
+            redirectLink: "/Services/Branding",
             Title: "BRANDING",
             keyWord: "Brand Identity",
             Description: "We offer exceptional branding services to elevate your business's identity. Collaborating with you, we craft your unique story and values. Our team conducts in-depth research to ensure your brand is authentic and impactful"
         },
         {
+            redirectLink: "/Services/SocialMediaMarketing",
             Title: "SOCIAL MEDIA MARKETING",
             keyWord: "Social Media Management Services",
             Description: "OutLead Solutions harmonizes lead generation tools with meticulously planned social media marketing strategies to boost brand engagement."
         },
         {
+            redirectLink: "/Services/SocialMedia/LinkedInOutbound",
             Title: "LINKEDIN OUTBOUND",
             keyWord: "LinkedIn Outreach Services",
             Description: <>
@@ -29,21 +34,25 @@ const AgiluxServices = () => {
             </>
         },
         {
+            redirectLink: "/Services/WebDevelopment",
             Title: "WEB DEVELOPMENT",
             keyWord: "Custom Web Development Services",
             Description: "OutLead Solutions enhances your online visibility through website development, providing a platform to showcase your work and attract customers."
         },
         {
+            redirectLink: "/Services/DigitalMarketingCampaign",
             Title: "DIGITAL MARKETING CAMPAIGN",
             keyWord: "Lead Generation",
             Description: "To promote and drive sales we use data-analytics based targeted campaigns through digital marketing channels like social media, search engines, and email. We review campaign performance using analytics to further make decisions that engage customers"
         },
         {
+            redirectLink: "/Services/Photoshoot",
             Title: "PHOTOSHOOT",
             keyWord: "Professional Photoshoot Services",
             Description: "Photoshoot services for businesses, offering professional images of products, properties, and events to enhance branding, marketing materials, and online presence."
         },
         {
+            redirectLink: "/Services/ColdEmailing",
             Title: "COLD EMAILING",
             keyWord: "Cold Email Marketing Services",
             Description: <>
@@ -74,22 +83,27 @@ const AgiluxServices = () => {
                     {/* <div className="AgiluxServicesContainer"> */}
                     <div className="OutleadServices">
                         {OutleadServices.map((item, index) => (
-                            <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"
-                                data-aos-duration="1000"
-                                data-aos-delay={`${index * 100}`}>
-                                <div className="InsideFlexContainer">
-                                    {/* <img src={item.image} alt=""  className="AbsoluteImage"/> */}
-                                    <div>
-                                        <h5 style={{ color: "black", margin: "0px" }}>/&nbsp;{index + 1}</h5>&nbsp;&nbsp;&nbsp;<h2>{item.Title}</h2>
+                           
+                                <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"
+                                    data-aos-duration="1000"
+                                    data-aos-delay={`${index * 100}`}>
+
+                                    <div className="InsideFlexContainer">
+                                        {/* <img src={item.image} alt=""  className="AbsoluteImage"/> */}
+                                        <div>
+                                            <h5 style={{ color: "black", margin: "0px" }}>/&nbsp;{index + 1}</h5>&nbsp;&nbsp;&nbsp;<h2>{item.Title}</h2>
+                                        </div>
+                                        <div>
+                                            {item.Description}
+                                            <br />
+                                            <br />
+                                            <span>/ {item.keyWord}</span>
+                                        </div>
                                     </div>
-                                    <div>
-                                        {item.Description}
-                                        <br />
-                                        <br />
-                                        <span>/ {item.keyWord}</span>
-                                    </div>
+
                                 </div>
-                            </div>
+                            
+
                         ))}
 
                     </div>

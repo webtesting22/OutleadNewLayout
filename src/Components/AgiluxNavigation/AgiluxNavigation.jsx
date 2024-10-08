@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./AgiluxNavigation.css";
 import { Button, Drawer, Collapse } from 'antd';
 import { Link } from "react-router-dom";
-import Outleadlogo from "../../../public/Outleadlogo.png"
+import Outleadlogo from "/Outleadlogo.png"
 import NavigationInside from "./NavigationInside.jpg"
 import NavigationAnimationIcon from "./NavigationAnimationIcon.json"
 import Lottie from "lottie-react";
@@ -43,75 +43,7 @@ const AgiluxNavigation = () => {
     };
 
     const items = [
-        // {
-        //     key: '1',
-        //     label: 'Services',
-        //     children:
-        //         <>
-        //             <div className="NavigationChildLinks">
-        //                 {/* <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
-        //                     <>
-        //                         <div className="ChildDrawerContent">
-        //                             <p>/ UI/UX Design</p>
-        //                             <p>/ Frontend Development</p>
-        //                             <p>/ Backend Development & API Integration</p>
-        //                             <p>/ Testing and Quality Assurance</p>
-        //                             <p>/ Deployment and Submission</p>
-        //                             <p>/ Post-Launch Support & Maintenance</p>
-        //                         </div>
-        //                     </>
-        //                 )}>
-        //                     App Development
-        //                 </p> */}
-        //                 <p onClick={() => showChildrenDrawer(
-        //                     <>
-        //                         <div className="ChildDrawerContent">
-        //                             <p>/ UI/UX Design</p>
-        //                             <p>/ Frontend Development</p>
-        //                             <p>/ Backend Development</p>
-        //                             <p>/ Content Management System (CMS)</p>
-        //                             <p>/ Testing & Quality Assurence</p>
-        //                             <p>/ Post-Launch Support & Maintence</p>
-        //                         </div>
-        //                     </>
-        //                 )}>Web Development</p>
-        //                 <p onClick={() => showChildrenDrawer(
-        //                     <>
-        //                         <div className="ChildDrawerContent">
-        //                             <p>/ Concept Development & Ideation</p>
-        //                             <p>/ Design Exicution</p>
-        //                             <p>/ Revisions and Final Adjustment</p>
-        //                             <p>/ File Preparation and Delivery</p>
-        //                             <p>/ Client Handoff and Support</p>
-        //                         </div>
-        //                     </>
-        //                 )}>Graphic Designing</p>
-        //                 {/* <p onClick={() => showChildrenDrawer(
-        //                     <>
-        //                         <div className="ChildDrawerContent">
-        //                             <p>/ Test Enviroment Setup</p>
-        //                             <p>/ Unit Testing Automation</p>
-        //                             <p>/ Intregation Testing Automation</p>
-        //                             <p>/ Perfomance Testing Automation</p>
-        //                             <p>/ Test Report and Documentation</p>
-        //                         </div>
-        //                     </>
-        //                 )}>QA Automatic Testing</p> */}
-        //                 <p onClick={() => showChildrenDrawer(
-        //                     <>
-        //                         <div className="ChildDrawerContent">
-        //                             <p>/ SEO Audit & Analysis</p>
-        //                             <p>/ Technical SEO Optimization</p>
-        //                             <p>/ On-Page SEO Optimization</p>
-        //                             <p>/ Content Strategy & Creation</p>
-        //                             <p>/ Off-Page SEO & Link Building</p>
-        //                             <p>/ Ongoing SEO Monitoring & Reporting</p>
-        //                         </div>
-        //                     </>
-        //                 )}>Search Engine Optimization (SEO)</p>
-        //             </div>
-        //         </>,
-        // },
+
         {
             key: '1',
             label: <><Link to="outLeadabout/" onClick={onClose}>About Us</Link></>,
@@ -130,8 +62,28 @@ const AgiluxNavigation = () => {
         },
         {
             key: '3',
-            label: <><Link to="/" onClick={onClose}>Services</Link></>,
-            // children: <p>Industry Content</p>,
+            label:<>
+                <Link to="/outleadservices" onClick={onClose}>Services</Link>
+            </>,
+            // label: <>
+            //     <Link onClick={() => showChildrenDrawer(
+            //         <>
+            //             <div className="ChildDrawerContent">
+            //                 <p>/ Branding</p>
+            //                 <p>/ Social Media Marketing</p>
+            //                 <p>/ LinkedIn Outbound</p>
+            //                 <p>/ Web Development</p>
+            //                 <p>/ Digital Marketing Campaign</p>
+            //                 <p>/ Photoshoot</p>
+            //                 <p>/ Cold Emailing</p>
+            //                 <p>/ SEO and Google Ads</p>
+            //             </div>
+            //         </>
+            //     )}
+            //     >SERVICES</Link>
+
+            // </>,
+
         },
         // {
         //     key: '4',
@@ -169,7 +121,7 @@ const AgiluxNavigation = () => {
                                 <Collapse accordion items={items} />
                             </div>
                             <div >
-                                <div  style={{height:"400px",overflow:"hidden"}}>
+                                <div style={{ height: "400px", overflow: "hidden" }}>
                                     <Lottie
                                         animationData={NavigationAnimationIcon}
                                         loop={true}
@@ -179,7 +131,8 @@ const AgiluxNavigation = () => {
                                     <p>/ Let's work!</p>
                                     <h3>Get your project done
                                     </h3>
-                                    <p>Looking for collaboration for your <span>next project</span>? Do not hesitate to contact us to <span>👋 say hello</span></p>
+                                    <p>Looking for collaboration for your
+                                        <span>next project</span>? Do not hesitate to contact us to <span>👋 say hello</span></p>
                                 </div>
                             </div>
                         </div>

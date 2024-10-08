@@ -18,7 +18,7 @@ const AgiluxMV = () => {
                     <div className="SameContainer" data-aos="fade-up"
                         data-aos-duration="1000">
                         <h4 className="Slashaheading">/ Mission</h4>
-                        {/* <br /> */}
+                        
                         <div className="OurMissionDetails">
 
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>

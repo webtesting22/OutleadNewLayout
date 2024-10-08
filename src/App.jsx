@@ -5,6 +5,7 @@ import AgiluxNavigation from './Components/AgiluxNavigation/AgiluxNavigation';
 import OutleadAboutUs from './Components/AboutUs/OutleadAboutUs';
 import OutleadFooter from './Components/OutleadFooter/OutleadFooter';
 import OutleadClients from './Components/OutleadClients/OutleadClients';
+import OutleadServices from './Components/OutleadServices/OutleadServices';
 function App() {
   return (
     <Router>
@@ -14,8 +15,9 @@ function App() {
         <Route exact path="/" element={<AgiluxHome />} />
         <Route exact path="/outleadabout" element={<OutleadAboutUs />} />
         <Route exact path="/outleadclients" element={<OutleadClients />} />
+        <Route exact path="/outleadservices" element={<OutleadServices />} />
       </Routes>
-      <OutleadFooter/>
+      <OutleadFooter />
     </Router>
   );
 }
