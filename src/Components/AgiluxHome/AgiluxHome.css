@@ -101,7 +101,25 @@
 .ant-collapse-header-text{
     font-size: 30px;
 }
+#HomePage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+.HomePageAgiluxHeading{
+    display: none;
+}
 @media (max-width:769px) {
+    .HomePageAgiluxHeading{
+        display: block;
+    }
+    #HomePage{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
     .ContactUsbtn a {
         display: flex;
         gap: 20px;

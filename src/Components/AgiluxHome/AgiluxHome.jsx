@@ -138,14 +138,14 @@ const AgiluxHome = () => {
 
                     </div>
                     <div className="AgiluxHomeContentContainer">
-                        <div style={{width:"100%",display:"flex",alignItems:"end",justifyContent:"space-between"}}>
+                        <div id="HomePage">
                             {/* <div>
                                 <img src={DesignsIcon1} alt="" />
                             </div> */}
-                            {/* <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
+                            <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
                             Outlead Solutions
                             Business Development Agency
-                            </h1> */}
+                            </h1>
                             <div style={{ display: "flex", alignContent: "center",width:"100%"}} id="SwiperText">
                                 /&nbsp;&nbsp;
                                 <Swiper
