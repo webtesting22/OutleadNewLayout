@@ -16,7 +16,7 @@ const OutleadFooter = () => {
                     <div className="IconsandEmail">
                         <div className="EmailContainer">
                             <div style={{ width: "222px" }}>
-                                <Link to="mailto:Info@Outleadsolutions.com"><p>Info@Outleadsolutions.com</p></Link>
+                                <Link to="mailto:Info@Outleadsolutions.com"><p>info@outleadsolutions.com</p></Link>
                                 <hr />
                             </div>
                         </div>

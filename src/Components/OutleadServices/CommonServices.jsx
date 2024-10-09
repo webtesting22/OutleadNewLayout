@@ -25,7 +25,7 @@ const serviceData = {
                                 with expert craftsmanship to
                                 ensure your brand stands out
                                 consistently and effectively</p>
-                        </div >
+                        </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1600">
                             <h4>LOGO
