@@ -280,12 +280,17 @@ const serviceData = {
                         <div>
                             <h4>PRODUCT SHOOT
                             </h4>
-                            <p>Product photoshoots are crucial for showcasing items and attracting customers through high-quality images that enhance brand visibility and boost sales.</p>
+                            <p>Our expert team combines
+                                technical skill with creative flair to
+                                highlight your products’ unique
+                                features and appeal.</p>
                         </div>
                         <div>
                             <h4>COMMERCIAL SHOOT
                             </h4>
-                            <p>A commercial photoshoot captures high-quality visuals that effectively promote a brand, enhance identity, and drive engagement across marketing platforms.</p>
+                            <p>Elevate your marketing with
+                                high-quality, impactful commercial
+                                shoots to captivate your audience.</p>
                         </div>
                         <div>
                             <h4>
