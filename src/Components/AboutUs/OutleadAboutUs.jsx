@@ -6,8 +6,11 @@ import Lottie from "lottie-react";
 import { Row, Col } from "antd";
 import WhatisOutleadIcon from "./WhatisOutleadIcon.json"
 import AnimatedArrow from "./AnimatedArrow.json"
+import Counter from "../MinimalComponent/Counter";
 const OutleadAboutUs = () => {
     const [isFading, setIsFading] = useState(false);
+    const [isCounterVisible, setIsCounterVisible] = useState(false); // To track visibility of the Counter
+    const counterSectionRef = useRef(null);
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -45,7 +48,27 @@ const OutleadAboutUs = () => {
         }
     }, []);
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                const [entry] = entries;
+                if (entry.isIntersecting) {
+                    setIsCounterVisible(true); // Start counter when section is in view
+                }
+            },
+            { threshold: 0.5 } // Adjust threshold based on when you want to trigger
+        );
 
+        if (counterSectionRef.current) {
+            observer.observe(counterSectionRef.current);
+        }
+
+        return () => {
+            if (counterSectionRef.current) {
+                observer.unobserve(counterSectionRef.current);
+            }
+        };
+    }, []);
     const ContainerAbsolute = [
         {
             container: ""
@@ -65,7 +88,7 @@ const OutleadAboutUs = () => {
         {
             container: ""
         },
-        
+
 
     ]
 
@@ -156,7 +179,55 @@ const OutleadAboutUs = () => {
                             <br />
                             <p>It's time to join hands; and lead together with OutLead!</p>
                         </div>
+                        <br /><br />
+                        {/* <div className="OutleadOverallContext">
+                          
+                            <Row>
+                                <Col lg={12} md={24}>
+                                    <div>
+                                        <h2 style={{ color: "black",marginTop:"0px" }}><b style={{ fontWeight: "400" }}>/ Our journey</b> the path to achieving success</h2>
+                                    </div>
+                                </Col>
 
+                                <Col lg={12} md={24}>
+                                    <div>
+                                        <p>We are an innovative marketing company, dedicated to helping businesses succeed through tailored strategies and captivating campaigns.</p>
+                                      
+                                        <div ref={counterSectionRef} id="Counters">
+                                            <Row>
+                                                <Col lg={12} md={24}>
+                                                    <div>
+                                                        {isCounterVisible && (
+                                                            <Counter start={0} end={10000} suffix="+" duration={10} />
+                                                        )}
+                                                        <br />
+                                                        <p>/ Designs</p>
+                                                    </div>
+                                                </Col>
+                                                <Col lg={12} md={24}>
+                                                    <div>
+                                                        {isCounterVisible && (
+                                                            <Counter start={0} end={100} suffix="+" duration={10} />
+                                                        )}
+                                                        <br />
+                                                        <p>/ Clients</p>
+                                                    </div>
+                                                </Col>
+                                                <Col lg={12} md={24}>
+                                                    <div>
+                                                        {isCounterVisible && (
+                                                            <Counter start={0} end={5000} suffix="+" duration={30} />
+                                                        )}
+                                                        <br />
+                                                        <p>/ Leads</p>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div> */}
                         <div className="OutleadPartnersDetails">
                             <Row>
                                 <Col lg={12}>

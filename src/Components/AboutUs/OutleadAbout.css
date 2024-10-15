@@ -59,7 +59,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-background-color: black;
+  background-color: black;
 }
 
 .AboutUsContent h1 {
@@ -70,7 +70,8 @@ background-color: black;
   position: relative;
   line-height: 8rem;
 }
-.AboutUsContent p{
+
+.AboutUsContent p {
   color: rgb(255, 255, 255);
 }
 
@@ -80,58 +81,70 @@ background-color: black;
   margin: 0rem 1rem;
   border-radius: 30px;
 }
-#PhotoshopIconSet{
-    width: 150px;
-    position: absolute;
-    left: 0rem;
-    margin-top: -20px;
+
+#PhotoshopIconSet {
+  width: 150px;
+  position: absolute;
+  left: 0rem;
+  margin-top: -20px;
 }
-.ParatextAbout{
+
+.ParatextAbout {
   width: 100%;
   display: flex;
   justify-content: end;
   position: relative;
 }
-.ParatextAbout p{
+
+.ParatextAbout p {
   width: 40%;
   line-height: 30px;
   /* font-weight: 600; */
 }
-.OutleadAboutUsContainer .TopContainer{
+
+.OutleadAboutUsContainer .TopContainer {
   height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
-.OutleadAboutUsContainer .TopContainer h2{
+
+.OutleadAboutUsContainer .TopContainer h2 {
   color: black;
 }
-.OutleadPartnersDetails{
-  margin:5rem 0rem;
+
+.OutleadPartnersDetails {
+  margin: 5rem 0rem;
 
 }
-.ProgressOutleadContentContainer{
+
+.ProgressOutleadContentContainer {
   display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
   color: black !important;
 }
-.ProgressOutleadContentContainer h2{
+
+.ProgressOutleadContentContainer h2 {
   color: black;
 }
+
 .progressBarContainer ul {
   padding: 0px;
 }
-.progressBarContainer ul li{
+
+.progressBarContainer ul li {
   list-style: none;
   margin: 10px 0px;
 }
-.progressBarContainer ul>div{
+
+.progressBarContainer ul>div {
   margin: 30px 0px;
 }
-.progressBarContainer .progressShow{
+
+.progressBarContainer .progressShow {
   width: 100%;
   height: 5px;
   border: 1px solid rgba(0, 0, 0, 0.356);
@@ -140,7 +153,8 @@ background-color: black;
   align-items: center;
   border-radius: 20px;
 }
-.progressBarContainer .progressShow hr{
+
+.progressBarContainer .progressShow hr {
   opacity: 1;
   width: 60%;
   height: 1px;
@@ -148,60 +162,75 @@ background-color: black;
   margin: 0px;
   background-color: black;
 }
-#ArrowIcon{
+
+#ArrowIcon {
   position: absolute;
   width: 300px;
   left: 40%;
   top: -60%;
 }
-@media (min-width:769px) and (max-width:1200px){
- 
-  .AboutUsContent h1{
+
+#Counters .ant-col>div {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0rem;
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+
+  .AboutUsContent h1 {
     color: rgb(255, 255, 255);
-  font-weight: 600;
-  font-size: 4rem;
-  text-transform: uppercase;
-  position: relative;
-  line-height: 7rem;
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 7rem;
   }
 }
+
 @media (max-width: 769px) {
-  .OutleadAboutUsContainer .TopContainer{
+  .OutleadAboutUsContainer .TopContainer {
     height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
+
   }
-  #ArrowIcon{
+
+  #ArrowIcon {
     position: absolute;
     width: 300px;
     left: 40%;
     top: -60%;
     display: none;
   }
-  #PhotoshopIconSet{
+
+  #PhotoshopIconSet {
     width: 20%;
     margin-top: -1rem;
     position: absolute;
     left: -1rem;
-}
-  .AboutUsContent h1{
-    color: rgb(255, 255, 255);
-  font-weight: 600;
-  font-size: 2rem;
-  text-transform: uppercase;
-  position: relative;
-  line-height: 3rem;
   }
+
+  .AboutUsContent h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 3rem;
+  }
+
   .AboutUsContainer {
     padding: 1rem 1rem;
   }
-  
-  .ParatextAbout p{
+
+  .ParatextAbout p {
     width: 100%;
     padding: 0rem 1rem;
   }
+
   .TopContainer div h2 {
     position: sticky;
     font-size: 30px;

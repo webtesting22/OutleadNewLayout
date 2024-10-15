@@ -1,6 +1,39 @@
 import { Row, Col } from 'antd';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import PopupPlaze from "./Images/PopupPlaze.png"
+import LogoDesign from "./Images/LogoDesign.png"
+import BROCHURE from "./Images/BROCHURE.png"
+import OfficeStationary from "./Images/OfficeStationary.png"
+import BrandKit from "./IconsImages/11.png"
+import LogoDesignS from "./IconsImages/12.png"
+import BrochersDesign from "./IconsImages/10.png"
+import Stationary from "./IconsImages/9.png"
+import DEFININGTARGET from "./IconsImages/16.png"
+import SCOUTINGANDFILTERING from "./IconsImages/15.png"
+import REACHOUT from "./IconsImages/14.png"
+import GENERATINGMEETINGS from "./IconsImages/13.png"
+import CONTENTCREATION from "./IconsImages/20.png"
+import GRAPHICSDESIGNING from "./IconsImages/19.png"
+import ANIMATIONS from "./IconsImages/18.png"
+import HARDCORE from "./IconsImages/17.png"
+import UNDERSTANDINGTARGET from "./IconsImages/24.png"
+import ASSIGNINGKEYWORDS from "./IconsImages/23.png"
+import ASSIGNINGBUDGET from "./IconsImages/22.png"
+import PROVIDINGANALYTICS from "./IconsImages/21.png"
+import PRODUCTSHOOT from "./IconsImages/29.png"
+import COMMERCIALSHOOT from "./IconsImages/28.png"
+import Videoshoot from "./IconsImages/27.png"
+import DroneShoot from "./IconsImages/26.png"
+import TimeLapseShoot from "./IconsImages/25.png"
+import DEFININGTARGETAUDIENCE from "./IconsImages/33.png"
+import CreatingDatabase from "./IconsImages/32.png"
+import SequencingEmails from "./IconsImages/31.png"
+import MonitoringReview from "./IconsImages/30.png"
+import KeywordResearch from "./IconsImages/37.png"
+import OptimizeContent from "./IconsImages/36.png"
+import TechnicalSEO from "./IconsImages/35.png"
+import MonitorAdjust from "./IconsImages/34.png"
 const serviceData = {
     'branding': {
         title: "Branding",
@@ -19,6 +52,7 @@ const serviceData = {
                     <div className='ProcessDefined'>
                         <div data-aos="fade-up"
                             data-aos-duration="1300">
+                            <img src={BrandKit} alt="Outleadbrand" />
                             <h4>BRAND
                                 KIT</h4>
                             <p>Use tailored, complete solutions
@@ -28,6 +62,7 @@ const serviceData = {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1600">
+                            <img src={LogoDesignS} alt="OutleadDesign" />
                             <h4>LOGO
                                 DESIGN</h4>
                             <p>Create a versatile yet simple logo
@@ -36,6 +71,7 @@ const serviceData = {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1900">
+                            <img src={BrochersDesign} alt="OutleadBrochure" />
                             <h4>BROCHURE
                                 DESIGN</h4>
                             <p>We craft visually striking and
@@ -46,6 +82,7 @@ const serviceData = {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="2100">
+                            <img src={Stationary} alt="" />
                             <h4>OFFICE
                                 STATIONERY</h4>
                             <p>Elevate your workspace with our
@@ -56,6 +93,113 @@ const serviceData = {
                                 ensures you stay organized and
                                 professional.</p>
                         </div>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ BRAND KIT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="2100">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={PopupPlaze} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Use tailored, complete solutions
+                                            with expert craftsmanship to
+                                            ensure your brand stands out
+                                            consistently and effectively.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ LOGO DESIGN</h4>
+                        <Row>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Create a versatile yet simple logo
+                                            that looks great on all platforms
+                                            and sizes.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={LogoDesign} alt="" />
+                                </div>
+
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ BROCHURE</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={BROCHURE} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>We craft visually striking and
+                                            expertly tailored brochures that
+                                            capture your brand’s essence
+                                            and effectively communicate
+                                            your message.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ OFFICE STATIONERY</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={OfficeStationary} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Elevate your workspace with our
+                                            premium office stationery,
+                                            designed for maximum
+                                            functionality and elegance. From
+                                            pens to planners, our collection
+                                            ensures you stay organized and
+                                            professional.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={OfficeStationary} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Elevate your workspace with our
+                                            premium office stationery,
+                                            designed for maximum
+                                            functionality and elegance. From
+                                            pens to planners, our collection
+                                            ensures you stay organized and
+                                            professional.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </>,
@@ -132,22 +276,26 @@ const serviceData = {
                     <br /><br />
                     <div className='ProcessDefined'>
                         <div>
+                            <img src={DEFININGTARGET} alt="" />
                             <h4>DEFINING TARGET AUDIENCE
                             </h4>
                             <p>
                                 We utilize LinkedIn to strategically engage with a well-defined target audience of key decision-makers and professionals. Our personalized outreach, backed by data insights, ensures effective connections that align with your business goals, leading to meaningful engagement and brand visibility.</p>
                         </div>
                         <div>
+                            <img src={SCOUTINGANDFILTERING} alt="" />
                             <h4>SCOUTING AND FILTERING
                             </h4>
                             <p>We excel in LinkedIn outbounding to scout and filter top talent for your organization. By leveraging LinkedIn’s tools, we analyze profiles to identify candidates that align with your needs.</p>
                         </div>
                         <div>
+                            <img src={REACHOUT} alt="" />
                             <h4>
                                 REACH-OUT & FOLLOW-UP</h4>
                             <p>We specialize in effective outreach and follow-up strategies to nurture relationships with candidates and clients. By employing personalized communication, we ensure timely interactions that enhance engagement.</p>
                         </div>
                         <div>
+                            <img src={GENERATINGMEETINGS} alt="" />
                             <h4>GENERATING MEETINGS
                             </h4>
                             <p>We leverage LinkedIn outbounding to generate meetings that foster meaningful connections and opportunities. By strategically engaging with potential clients and candidates.</p>
@@ -177,22 +325,26 @@ const serviceData = {
                     <br /><br />
                     <div className='ProcessDefined'>
                         <div>
+                            <img src={CONTENTCREATION} alt="" />
                             <h4>CONTENT CREATION
                             </h4>
                             <p>We excel in content creation for web development, producing high-quality, engaging content that not only enhances user experience but also effectively communicates your brand's message.</p>
                         </div>
                         <div>
+                            <img src={GRAPHICSDESIGNING} alt="" />
                             <h4>GRAPHICS DESIGNING
                             </h4>
                             <p>Graphic design is essential in web development, creating visually appealing and user-friendly websites. We integrate stunning visuals with intuitive layouts, enhancing user experience.</p>
                         </div>
                         <div>
+                            <img src={ANIMATIONS} alt="" />
                             <h4>
                                 ANIMATIONS
                             </h4>
                             <p>Animation enhances web development by creating dynamic, engaging user experiences. We incorporate smooth interactions that effectively communicate your brand's message while maintaining performance.</p>
                         </div>
                         <div>
+                            <img src={HARDCORE} alt="" />
                             <h4>
                                 PERSONALIZED & HARD-CORE
                             </h4>
@@ -228,22 +380,26 @@ const serviceData = {
                     <br /><br />
                     <div className='ProcessDefined'>
                         <div>
+                            <img src={UNDERSTANDINGTARGET} alt="" />
                             <h4>UNDERSTANDING TARGET AUDIENCE
                             </h4>
                             <p>Understanding your target audience is crucial for digital marketing success, as it allows for tailored messaging and strategies. By analyzing demographics and preferences.</p>
                         </div>
                         <div>
+                            <img src={ASSIGNINGKEYWORDS} alt="" />
                             <h4>ASSIGNING KEYWORDS
                             </h4>
                             <p>Assigning the right keywords is crucial for enhancing search visibility and audience reach in digital marketing campaigns through comprehensive research.</p>
                         </div>
                         <div>
+                            <img src={ASSIGNINGBUDGET} alt="" />
                             <h4>
                                 ASSIGNING A BUDGET
                             </h4>
                             <p>Strategically assigning a budget is essential for maximizing ROI in digital marketing. By analyzing data and trends, we ensure optimal resource allocation for effective audience engagement.</p>
                         </div>
                         <div>
+                            <img src={PROVIDINGANALYTICS} alt="" />
                             <h4>
                                 PROVIDING ANALYTICS
                             </h4>
@@ -278,6 +434,7 @@ const serviceData = {
                     <br /><br />
                     <div className='ProcessDefined'>
                         <div>
+                            <img src={PRODUCTSHOOT} alt="" />
                             <h4>PRODUCT SHOOT
                             </h4>
                             <p>Our expert team combines
@@ -286,6 +443,7 @@ const serviceData = {
                                 features and appeal.</p>
                         </div>
                         <div>
+                            <img src={COMMERCIALSHOOT} alt="" />
                             <h4>COMMERCIAL SHOOT
                             </h4>
                             <p>Elevate your marketing with
@@ -293,18 +451,21 @@ const serviceData = {
                                 shoots to captivate your audience.</p>
                         </div>
                         <div>
+                            <img src={Videoshoot} alt="" />
                             <h4>
                                 Video shoot
                             </h4>
                             <p>A video shoot engages audiences through dynamic content, combining storytelling with quality production to enhance brand visibility and drive engagement.</p>
                         </div>
                         <div>
+                            <img src={DroneShoot} alt="" />
                             <h4>
                                 Drone Shoot
                             </h4>
                             <p>A drone shoot captures stunning aerial footage, offering a unique perspective that enhances visual storytelling and engages audiences in marketing campaigns.</p>
                         </div>
                         <div>
+                            <img src={TimeLapseShoot} alt="" />
                             <h4>
                                 Time Lapse Shoot
                             </h4>
@@ -338,22 +499,26 @@ const serviceData = {
                     <br /><br />
                     <div className='ProcessDefined'>
                         <div>
+                            <img src={DEFININGTARGETAUDIENCE} alt="" />
                             <h4>DEFINING TARGET AUDIENCE
                             </h4>
                             <p>Defining the target audience in cold emailing is key to creating tailored messages that enhance engagement and conversion rates by addressing specific needs.</p>
                         </div>
                         <div>
+                            <img src={CreatingDatabase} alt="" />
                             <h4>Creating Database
                             </h4>
                             <p>Building a database for cold emailing organizes leads for targeted outreach, enhancing campaign effectiveness. Regular updates improve deliverability and maximize conversion rates.</p>
                         </div>
                         <div>
+                            <img src={SequencingEmails} alt="" />
                             <h4>
                                 Sequencing Emails
                             </h4>
                             <p>Sequencing emails in cold emailing nurtures leads through tailored messages, gradually building trust and increasing response rates and conversions.</p>
                         </div>
                         <div>
+                            <img src={MonitoringReview} alt="" />
                             <h4>
                                 Monitoring & Review
                             </h4>
@@ -383,22 +548,26 @@ const serviceData = {
                 <br /><br />
                 <div className='ProcessDefined'>
                     <div>
+                        <img src={KeywordResearch} alt="" />
                         <h4>Keyword Research
                         </h4>
                         <p>Keyword search is crucial for SEO and Google Ads, optimizing content for organic traffic and improving ad visibility to drive conversions and maximize ROI.</p>
                     </div>
                     <div>
+                        <img src={OptimizeContent} alt="" />
                         <h4>Optimize Content
                         </h4>
                         <p>Content optimization for SEO and Google Ads improves visibility and traffic through relevant keywords and compelling copy, with ongoing performance analysis enabling effective adjustments.</p>
                     </div>
                     <div>
+                        <img src={TechnicalSEO} alt="" />
                         <h4>
-                            Technical Seo
+                            Technical SEO
                         </h4>
                         <p>Technical SEO optimizes websites for search engines by improving site structure, loading speed, and mobile-friendliness, which enhances visibility and user experience in both organic and Google Ads.</p>
                     </div>
                     <div>
+                        <img src={MonitorAdjust} alt="" />
                         <h4>
                             Monitor & Adjust
                         </h4>

@@ -76,12 +76,13 @@
     display: flex;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     margin-top: 5rem;
+    margin-bottom: 5rem;
 
 }
 
 .ProcessDefined>div {
     background-color: transparent;
-    height: 20vh;
+    min-height: 20vh;
     width: 100%;
     margin: 0px 20px;
     position: relative;
@@ -111,6 +112,35 @@
 .ProcessDefined>div h4 {
     font-weight: 400;
     text-transform: uppercase;
+    color: #ffa401;
+}
+
+.ProcessDefined img {
+    width: 78px;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    position: absolute;
+    top: -59px;
+    left: -20px;
+}
+
+.CommonServicesImageContainer img {
+    width: 80%;
+    /* border-radius: 10px; */
+    border: 1px dashed #ffa401;
+    padding: 10px;
+}
+
+.RightSideContentInfo {
+    width: 100%;
+    height: 100%;
+    /* padding: 0px 40px; */
+    display: flex;
+    align-items: center;
+}
+
+.ServicesExlainContainer .ant-row {
+    padding: 3rem 0rem;
 }
 
 @media (max-width:769px) {
