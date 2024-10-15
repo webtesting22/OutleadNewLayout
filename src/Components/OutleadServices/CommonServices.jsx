@@ -5,6 +5,12 @@ import PopupPlaze from "./Images/PopupPlaze.png"
 import LogoDesign from "./Images/LogoDesign.png"
 import BROCHURE from "./Images/BROCHURE.png"
 import OfficeStationary from "./Images/OfficeStationary.png"
+import InstaImage from "./Images/InstaImage.png"
+import FaceBookImage from "./Images/FaceBookImage.png"
+import TwitterImage from "./Images/TwitterImage.png"
+import LinkedIn from "./Images/LinkedIn.png"
+
+
 import BrandKit from "./IconsImages/11.png"
 import LogoDesignS from "./IconsImages/12.png"
 import BrochersDesign from "./IconsImages/10.png"
@@ -159,11 +165,6 @@ const serviceData = {
                     <div className='BrandingServiceExplaination'>
                         <h4>/ OFFICE STATIONERY</h4>
                         <Row>
-                            <Col lg={16} md={24}>
-                                <div className='CommonServicesImageContainer'>
-                                    <img src={OfficeStationary} alt="" />
-                                </div>
-                            </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
@@ -177,30 +178,15 @@ const serviceData = {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
-                    </div>
-                    <div className='BrandingServiceExplaination'>
-                        <Row>
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={OfficeStationary} alt="" />
                                 </div>
-                            </Col>
-                            <Col lg={8} md={24}>
-                                <div className='RightSideContentInfo'>
-                                    <div>
-                                        <p>Elevate your workspace with our
-                                            premium office stationery,
-                                            designed for maximum
-                                            functionality and elegance. From
-                                            pens to planners, our collection
-                                            ensures you stay organized and
-                                            professional.</p>
-                                    </div>
-                                </div>
+
                             </Col>
                         </Row>
                     </div>
+
                 </div>
             </>,
         relatedKeywords: [
@@ -253,6 +239,93 @@ const serviceData = {
                             </h4>
                             <p>To drive engagement, we create Twitter posts that are informative  eye-catching, and aligned with your brand.</p>
                         </div>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ INSTAGRAM</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={InstaImage} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>To create a visually appealing
+                                            Instagram grid, we maintain a
+                                            consistency and aesthetics with
+                                            a cohesive color palette and
+                                            personalized graphics for
+                                            content formats like photos,
+                                            videos, and reels.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ FACEBOOK</h4>
+                        <Row>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>We design high-quality visuals,
+                                            cohesive color schemes that will
+                                            keep your feed dynamic while
+                                            reflecting your brand’s unique
+                                            voice.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={FaceBookImage} alt="" />
+                                </div>
+
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ TWITTER</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={TwitterImage} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>To drive engagement, we create
+                                            Twitter posts that are informative
+                                            eye-catching, and aligned with
+                                            your brand.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ LINKEDIN</h4>
+                        <Row>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Use LinkedIn to post creatives
+                                            that achieve professional,
+                                            impactful designs and enhance
+                                            your brand’s presence and
+                                            credibility.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={LinkedIn} alt="" />
+                                </div>
+
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </>,
