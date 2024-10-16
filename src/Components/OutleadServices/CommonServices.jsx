@@ -9,6 +9,9 @@ import InstaImage from "./Images/InstaImage.png"
 import FaceBookImage from "./Images/FaceBookImage.png"
 import TwitterImage from "./Images/TwitterImage.png"
 import LinkedIn from "./Images/LinkedIn.png"
+import LinkdinOutbounding from "./Images/LinkdinOutbounding.png"
+import WebsiteDevelopment from "./Images/WebsiteDevelopment.png"
+
 
 
 import BrandKit from "./IconsImages/11.png"
@@ -374,6 +377,27 @@ const serviceData = {
                             <p>We leverage LinkedIn outbounding to generate meetings that foster meaningful connections and opportunities. By strategically engaging with potential clients and candidates.</p>
                         </div>
                     </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ LINKEDIN OUTBOUND</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={LinkdinOutbounding} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>An example of a tailored-approach,
+                                            targeting a pre-defined
+                                            demographic across set
+                                            geographies and personalized
+                                            follow-up mechanisms.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </>,
         relatedKeywords: [
@@ -423,6 +447,27 @@ const serviceData = {
                             </h4>
                             <p>We focus on personalization and technical excellence in web development to create tailored user experiences. By leveraging data insights, we deliver dynamic websites that enhance engagement and drive conversions.</p>
                         </div>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ WEBSITE DEVELOPMENT</h4>
+                        <Row>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={WebsiteDevelopment} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>An engaging online platform
+                                            with captivating graphical
+                                            designs to showcase your
+                                            brand, featuring exceptional
+                                            online visibility.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </>
