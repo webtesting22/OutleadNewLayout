@@ -141,7 +141,7 @@ const OutleadAboutUs = () => {
                                     id="AboutUsVideo"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
-                                    style={{ width: '100%', height: 'auto', objectFit: 'cover', pointerEvents: 'none' }} 
+                                    style={{pointerEvents: 'none'}}
                                 /> <br /> Creativity Fueled</h1>
 
                             <div className="ParatextAbout" data-aos="fade-up"
