@@ -37,7 +37,7 @@ const AgiluxProcess = () => {
     ]
     return (
         <>
-            <section style={{ paddingBottom: "0px" }}>
+            <section style={{ paddingBottom: "0px",paddingTop:"0px" }}>
 
                 <div className="BackOverlayImage">
                     {/* <img src={Background} alt="" /> */}

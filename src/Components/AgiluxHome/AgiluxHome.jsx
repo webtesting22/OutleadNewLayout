@@ -47,9 +47,6 @@ const TextSlider = [
 ]
 const AgiluxHome = () => {
     const [isFading, setIsFading] = useState(false);
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
     const videoRefPc = useRef(null);
     const videoRefMobile = useRef(null);
     const handleTimeUpdate = (videoRef) => {
@@ -111,30 +108,30 @@ const AgiluxHome = () => {
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         {/* PC Video */}
                         <video
-    id="PcOnly"
-    ref={videoRefPc}
-    src={BackVideo}
-    loop={false} 
-    autoPlay
-    muted
-    playsInline // Prevent fullscreen on mobile
-    onTimeUpdate={() => handleTimeUpdate(videoRefPc)}
-    onEnded={() => handleVideoEnd(videoRefPc)}
-    style={{ width: '100%', height: 'auto', objectFit: 'cover', pointerEvents: 'none' }} // Ensure no interaction triggers fullscreen
-/>
-{/* Mobile Video */}
-<video
-    id="MobileOnly"
-    ref={videoRefMobile}
-    src={MobileBack}
-    loop={false} 
-    autoPlay
-    muted
-    playsInline // Prevent fullscreen on mobile
-    onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
-    onEnded={() => handleVideoEnd(videoRefMobile)}
-    style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} // Same here
-/>
+                            id="PcOnly"
+                            ref={videoRefPc}
+                            src={BackVideo}
+                            loop={false}
+                            autoPlay
+                            muted
+                            playsInline // Prevent fullscreen on mobile
+                            onTimeUpdate={() => handleTimeUpdate(videoRefPc)}
+                            onEnded={() => handleVideoEnd(videoRefPc)}
+                            style={{ width: '100%', height: 'auto', objectFit: 'cover', pointerEvents: 'none' }} // Ensure no interaction triggers fullscreen
+                        />
+                        {/* Mobile Video */}
+                        <video
+                            id="MobileOnly"
+                            ref={videoRefMobile}
+                            src={MobileBack}
+                            loop={false}
+                            autoPlay
+                            muted
+                            playsInline // Prevent fullscreen on mobile
+                            onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
+                            onEnded={() => handleVideoEnd(videoRefMobile)}
+                            style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} // Same here
+                        />
 
                     </div>
                     <div className="BlackOverlay">
@@ -146,10 +143,10 @@ const AgiluxHome = () => {
                                 <img src={DesignsIcon1} alt="" />
                             </div> */}
                             <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
-                            Outlead Solutions
-                            Business Development Agency
+                                Outlead Solutions
+                                Business Development Agency
                             </h1>
-                            <div style={{ display: "flex", alignContent: "center",width:"100%"}} id="SwiperText">
+                            <div style={{ display: "flex", alignContent: "center", width: "100%" }} id="SwiperText">
                                 /&nbsp;&nbsp;
                                 <Swiper
                                     direction={'vertical'}
