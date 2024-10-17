@@ -153,7 +153,7 @@ const OutleadServices = () => {
                     </div>
                 </Col>
             </Row><div style={{ margin: "30px 0" }} />
-        </section >
+        </section>
     );
 };
 
