@@ -11,6 +11,15 @@ import TwitterImage from "./Images/TwitterImage.png"
 import LinkedIn from "./Images/LinkedIn.png"
 import LinkdinOutbounding from "./Images/LinkdinOutbounding.png"
 import WebsiteDevelopment from "./Images/WebsiteDevelopment.png"
+import DigitalMarketingCampaign from "./Images/DigitalMarketingCampaign.png"
+import DigitalMarketingCampign2 from "./Images/DigitalMarketingCampign2.png"
+import ProductPhotoshoot from "./Images/ProductPhotoshoot.png"
+import ProductPhotoshoot2 from "./Images/ProductPhotoshoot2.png"
+import CommertialShoot from "./Images/CommertialShoot.png"
+import VideoShoot from "./Images/VideoShoot.png"
+import ColdEmailing from "./Images/ColdEmailing.png"
+import SEO from "./Images/SEO.png"
+
 
 
 
@@ -126,7 +135,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ LOGO DESIGN</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
@@ -146,7 +156,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ BROCHURE</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={BROCHURE} alt="" />
@@ -167,7 +178,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ OFFICE STATIONERY</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
@@ -204,8 +216,6 @@ const serviceData = {
     'socialMediaMarketing': {
         title: "Social Media Marketing",
         image: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-
-
         description:
             <>
                 <div data-aos="fade-up"
@@ -245,7 +255,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ INSTAGRAM</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={InstaImage} alt="" />
@@ -268,7 +279,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ FACEBOOK</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
@@ -290,7 +302,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ TWITTER</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={TwitterImage} alt="" />
@@ -310,7 +323,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ LINKEDIN</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
@@ -379,7 +393,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ LINKEDIN OUTBOUND</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={LinkdinOutbounding} alt="" />
@@ -450,7 +465,8 @@ const serviceData = {
                     </div>
                     <div className='BrandingServiceExplaination'>
                         <h4>/ WEBSITE DEVELOPMENT</h4>
-                        <Row>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
                             <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={WebsiteDevelopment} alt="" />
@@ -524,6 +540,50 @@ const serviceData = {
                             <p>Providing analytics is essential for measuring success in digital marketing campaigns. By analyzing key performance indicators, we gain insights that inform strategy adjustments and enhance overall results.</p>
                         </div>
                     </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ DIGITAL MARKETING CAMPAIGN</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={DigitalMarketingCampaign} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Unlock new growth
+                                            opportunities and engage your
+                                            audience like never before with
+                                            a strategic and tailored digital
+                                            marketing campaign.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ DIGITAL MARKETING CAMPAIGN</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={16} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Designed to meet your specific
+                                            objectives, our strategies deliver
+                                            measurable results and amplify
+                                            your brand's impact.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={DigitalMarketingCampign2} alt="" />
+                                </div>
+
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </>,
         relatedKeywords: [
@@ -590,6 +650,95 @@ const serviceData = {
                             <p>A time-lapse shoot condenses time into engaging visuals, effectively showcasing transformations and telling compelling stories for promotional and artistic projects.</p>
                         </div>
                     </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ PRODUCT PHOTOSHOOT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={ProductPhotoshoot} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Our expert team combines
+                                            technical skill with creative flair to
+                                            highlight your products’ unique
+                                            features and appeal.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ PRODUCT PHOTOSHOOT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Receive stunning, high-quality
+                                            images that showcase your
+                                            products in the best light and
+                                            significantly boost online
+                                            engagement.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={ProductPhotoshoot2} alt="" />
+                                </div>
+
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ COMMERCIAL SHOOT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={CommertialShoot} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Elevate your marketing with
+                                            high-quality, impactful commercial
+                                            shoots to captivate your audience.</p>
+                                    </div>
+                                </div>
+
+
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ VIDEO, DRONE & TIMELAPSE SHOOT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>Capture breathtaking aerial views
+                                            and stunning time-lapse sequences
+                                            with precision and creativity.</p>
+                                    </div>
+                                </div>
+
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={VideoShoot} alt="" />
+                                </div>
+
+
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </>
         ,
@@ -643,6 +792,30 @@ const serviceData = {
                             <p>Monitoring cold emailing campaigns is vital for optimizing outreach by analyzing key metrics. This approach enables continuous improvement in targeting and content, enhancing overall performance.</p>
                         </div>
                     </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ COLD EMAILING</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={ColdEmailing} alt="" />
+                                </div>
+
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <div>
+                                        <p>An example of creating databases
+                                            and sequences of different emails
+                                            to be sent to a specific
+                                            demographic over a pre-defined
+                                            time period.</p>
+                                    </div>
+                                </div>
+
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </>,
         relatedKeywords: [
@@ -691,6 +864,30 @@ const serviceData = {
                         </h4>
                         <p>Monitoring and adjusting SEO and Google Ads strategies optimize performance by analyzing metrics to enhance content and ad effectiveness, maximizing ROI.</p>
                     </div>
+                </div>
+                <div className='BrandingServiceExplaination'>
+                    <h4>/ COLD EMAILING</h4>
+                    <Row data-aos="fade-up"
+                        data-aos-duration="1300">
+                        <Col lg={16} md={24}>
+                            <div className='CommonServicesImageContainer'>
+                                <img src={SEO} alt="" />
+                            </div>
+
+                        </Col>
+                        <Col lg={8} md={24}>
+                            <div className='RightSideContentInfo'>
+                                <div>
+                                    <p>An example of creating databases
+                                        and sequences of different emails
+                                        to be sent to a specific
+                                        demographic over a pre-defined
+                                        time period.</p>
+                                </div>
+                            </div>
+
+                        </Col>
+                    </Row>
                 </div>
             </div>
         </>,

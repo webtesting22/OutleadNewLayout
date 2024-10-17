@@ -139,11 +139,27 @@
     align-items: center;
 }
 
+
 .ServicesExlainContainer .ant-row {
     padding: 3rem 0rem;
 }
 
+.BrandingServiceExplaination {
+    padding: 30px 0px;
+}
+
 @media (max-width:769px) {
+
+
+    .BrandingServiceExplaination {
+        padding: 20px 0px;
+    }
+
+    .RightSideContentInfo p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .ProcessDefined {
         width: 100%;
         display: flex;
@@ -151,6 +167,7 @@
         border-left: 1px solid rgba(255, 255, 255, 0.4);
         border-top: 0px;
         margin-top: 5rem;
+        margin-bottom: 2rem;
 
     }
 
@@ -170,4 +187,13 @@
         font-weight: 400;
         margin: 0px;
     }
+
+    .CommonServicesImageContainer img {
+        width: 100%;
+        /* border-radius: 10px; */
+        border: 1px dashed #ffa401;
+        padding: 0px;
+    }
+
+
 }
