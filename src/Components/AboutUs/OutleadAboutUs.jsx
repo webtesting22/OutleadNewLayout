@@ -141,6 +141,7 @@ const OutleadAboutUs = () => {
                                     id="AboutUsVideo"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
+                                    playsInline 
                                     style={{pointerEvents: 'none'}}
                                 /> <br /> Creativity Fueled</h1>
 
