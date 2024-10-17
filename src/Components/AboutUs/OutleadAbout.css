@@ -34,7 +34,7 @@
 }
 
 .parentAbsoluteContainer {
-  display: flex;
+  display: none;
   width: 100%;
   position: absolute;
   top: 0px;
