@@ -82,7 +82,7 @@
 
 .ProcessDefined>div {
     background-color: transparent;
-    min-height: 20vh;
+    /* min-height: 20vh; */
     width: 100%;
     margin: 0px 20px;
     position: relative;
@@ -148,7 +148,21 @@
 }
 
 @media (max-width:769px) {
-
+    .ProcessDefined>div {
+        background-color: transparent;
+        /* min-height: 20vh; */
+        width: 90%;
+        margin: 20px 20px;
+        position: relative;
+    }
+    .ProcessDefined img {
+        width: 78px;
+        aspect-ratio: 3 / 2;
+        object-fit: contain;
+        position: static;
+        top: -59px;
+        left: -20px;
+    }
 
     .BrandingServiceExplaination {
         padding: 20px 0px;
@@ -166,7 +180,7 @@
         flex-direction: column;
         border-left: 1px solid rgba(255, 255, 255, 0.4);
         border-top: 0px;
-        margin-top: 5rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
 
     }
@@ -187,9 +201,7 @@
         font-weight: 400;
         margin: 0px;
     }
-    .ProcessDefined>div p{
-        margin-bottom: 3.5rem;
-    }
+  
 
     .CommonServicesImageContainer img {
         width: 100%;
@@ -200,3 +212,11 @@
 
 
 }
+.BrandingServiceExplaination:nth-child(even) .CommonServicesImageContainer {
+    /* Add your styles for odd elements here */
+    display: flex;
+    justify-content: end;
+    /* background-color: red; */
+
+  }
+  

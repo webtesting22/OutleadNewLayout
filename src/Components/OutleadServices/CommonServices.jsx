@@ -566,7 +566,7 @@ const serviceData = {
                         <h4>/ DIGITAL MARKETING CAMPAIGN</h4>
                         <Row data-aos="fade-up"
                             data-aos-duration="1300">
-                            <Col lg={16} md={24}>
+                            <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
                                     <div>
                                         <p>Designed to meet your specific
@@ -576,7 +576,7 @@ const serviceData = {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={8} md={24}>
+                            <Col lg={16} md={24}>
                                 <div className='CommonServicesImageContainer'>
                                     <img src={DigitalMarketingCampign2} alt="" />
                                 </div>
