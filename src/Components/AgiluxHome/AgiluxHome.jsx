@@ -111,28 +111,31 @@ const AgiluxHome = () => {
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         {/* PC Video */}
                         <video
-                            id="PcOnly"
-                            ref={videoRefPc}
-                            src={BackVideo}
-                            loop={false} // We control the loop manually
-                            autoPlay
-                            muted
-                            onTimeUpdate={() => handleTimeUpdate(videoRefPc)}
-                            onEnded={() => handleVideoEnd(videoRefPc)}
-                            style={{ width: '100%', height: 'auto' }}
-                        />
-                        {/* Mobile Video */}
-                        <video
-                            id="MobileOnly"
-                            ref={videoRefMobile}
-                            src={MobileBack}
-                            loop={false} // We control the loop manually
-                            autoPlay
-                            muted
-                            onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
-                            onEnded={() => handleVideoEnd(videoRefMobile)}
-                            style={{ width: '100%', height: '100%' }}
-                        />
+    id="PcOnly"
+    ref={videoRefPc}
+    src={BackVideo}
+    loop={false} 
+    autoPlay
+    muted
+    playsInline // Prevent fullscreen on mobile
+    onTimeUpdate={() => handleTimeUpdate(videoRefPc)}
+    onEnded={() => handleVideoEnd(videoRefPc)}
+    style={{ width: '100%', height: 'auto', objectFit: 'cover', pointerEvents: 'none' }} // Ensure no interaction triggers fullscreen
+/>
+{/* Mobile Video */}
+<video
+    id="MobileOnly"
+    ref={videoRefMobile}
+    src={MobileBack}
+    loop={false} 
+    autoPlay
+    muted
+    playsInline // Prevent fullscreen on mobile
+    onTimeUpdate={() => handleTimeUpdate(videoRefMobile)}
+    onEnded={() => handleVideoEnd(videoRefMobile)}
+    style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} // Same here
+/>
+
                     </div>
                     <div className="BlackOverlay">
 
