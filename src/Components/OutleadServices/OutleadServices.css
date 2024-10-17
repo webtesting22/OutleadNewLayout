@@ -8,7 +8,7 @@
 
 @media (max-width:970px) {
     #CommonServices .TopContainer {
-        padding: 8rem 1rem;
+        padding: 0rem 1rem;
     }
 
     .ImageHeightContainer {
@@ -134,10 +134,9 @@
 .RightSideContentInfo {
     width: 100%;
     height: 100%;
-    /* padding: 0px 40px; */
     display: flex;
     align-items: center;
-}
+} 
 
 
 .ServicesExlainContainer .ant-row {
@@ -154,6 +153,7 @@
     .BrandingServiceExplaination {
         padding: 20px 0px;
     }
+
 
     .RightSideContentInfo p {
         padding-top: 10px;
@@ -186,6 +186,9 @@
     .ProcessDefined>div h4 {
         font-weight: 400;
         margin: 0px;
+    }
+    .ProcessDefined>div p{
+        margin-bottom: 3.5rem;
     }
 
     .CommonServicesImageContainer img {

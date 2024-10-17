@@ -13,7 +13,7 @@ const AgiluxServices = () => {
             Title: "BRANDING",
             keyWord: "Brand Identity",
             slug: "branding",
-            Description: "We offer exceptional branding services to elevate your business's identity. Collaborating with you, we craft your unique story and values. Our team conducts in-depth research to ensure your brand is authentic and impactful"
+            Description: "We offer exceptional branding services to elevate your business's identity. Collaborating with you, we craft your unique story and values. Our team conducts in-depth research to ensure your brand is authentic and impactful."
         },
         {
 
@@ -48,7 +48,7 @@ const AgiluxServices = () => {
             Title: "DIGITAL MARKETING CAMPAIGN",
             slug: 'digitalMarketingCampaign',
             keyWord: "Lead Generation",
-            Description: "To promote and drive sales we use data-analytics based targeted campaigns through digital marketing channels like social media, search engines, and email. We review campaign performance using analytics to further make decisions that engage customers"
+            Description: "To promote and drive sales we use data-analytics based targeted campaigns through digital marketing channels like social media, search engines, and email. We review campaign performance using analytics to further make decisions that engage customers."
         },
         {
 

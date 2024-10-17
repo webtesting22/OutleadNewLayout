@@ -24,7 +24,7 @@ const AgiluxMV = () => {
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Transforming Ideas into Reality</h2>
                             </div>
-                            <p>At Outlead Solution, our mission is to deliver innovative, agile, and tailor-made technology solutions that empower businesses to achieve operational excellence and scalability. We are committed to providing world-class services that seamlessly integrate cutting-edge technology with user-focused design, enabling our clients to thrive, adapt, and stay ahead in a rapidly evolving digital ecosystem.
+                            <p>At OutLead Solution, our mission is to deliver innovative, agile, and tailor-made technology solutions that empower businesses to achieve operational excellence and scalability. We are committed to providing world-class services that seamlessly integrate cutting-edge technology with user-focused design, enabling our clients to thrive, adapt, and stay ahead in a rapidly evolving digital ecosystem.
                             </p>
 
                         </div>

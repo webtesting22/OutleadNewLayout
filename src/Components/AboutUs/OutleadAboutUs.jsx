@@ -160,16 +160,16 @@ const OutleadAboutUs = () => {
                         <div className="TopContainer">
                             <h4 style={{ position: "sticky" }} className="Slashaheading">/ About Us</h4>
                             <div style={{ display: "flex", justifyContent: "space-Between" }}>
-                                <h2>Outlead Solutions</h2>
+                                <h2>OutLead Solutions</h2>
                             </div>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1000">
-                            <p>/ Outlead Solution</p>
+                            <p>/ OutLead Solution</p>
                             <br />
-                            <p>Outlead Solutions is a premier graphics design, marketing, and web development company, dedicated to helping businesses grow their online presence. We specialize in crafting visually stunning designs, innovative marketing strategies, and high-performance websites tailored to your unique needs. Our expert team ensures optimal user experiences and drives measurable results, empowering your brand to succeed in the digital landscape.</p>
+                            <p>OutLead Solutions is a premier graphics design, marketing, and web development company, dedicated to helping businesses grow their online presence. We specialize in crafting visually stunning designs, innovative marketing strategies, and high-performance websites tailored to your unique needs. Our expert team ensures optimal user experiences and drives measurable results, empowering your brand to succeed in the digital landscape.</p>
                             <br />
-                            <p>/ What is Outlead Solution?</p>
+                            <p>/ What is OutLead Solution?</p>
                             <br />
                             <p>The onset of the global pandemic has drastically changed the way businesses survive and thrive. The founders of OutLead took this challenge as an opportunity with one simple goal - to reconstruct the pillars of sales and marketing in the digital world.</p>
                             <br />

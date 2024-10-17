@@ -103,7 +103,7 @@ const AgiluxNavigation = () => {
                                     <h3>Get your project done
                                     </h3>
                                     <p>Looking for collaboration for your
-                                        <span>next project</span>? Do not hesitate to contact us to <span>👋 say hello</span></p>
+                                        <span> next project</span>? Do not hesitate to contact us to <span>👋 say hello</span></p>
                                 </div>
                             </div>
                         </div>

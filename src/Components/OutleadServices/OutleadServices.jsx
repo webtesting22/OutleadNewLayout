@@ -53,7 +53,7 @@ const OutleadServices = () => {
                 <p>We offer exceptional branding services to elevate your business's
                     identity. Collaborating with you, we craft your unique story and values.
                     Our team conducts in-depth research to ensure your brand is
-                    authentic and impactful.</p>
+                    authentic and impactful. </p>
             </div>
             <Row style={{ width: "100%" }}>
                 <Col lg={18} md={24} className="clientLeftContainer">

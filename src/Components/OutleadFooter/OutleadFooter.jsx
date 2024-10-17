@@ -30,7 +30,7 @@ const OutleadFooter = () => {
                     </div>
                     <br />
                     <div>
-                        <p style={{ textAlign: "center", padding: "0px", margin: "0px", fontSize: "16px" }}>Copyright © All rights reserved by <span style={{ color: "orange", fontWeight: "500" }}>Outlead Solutions</span></p>
+                        <p style={{ textAlign: "center", padding: "0px", margin: "0px", fontSize: "16px" }}>Copyright © All rights reserved by <span style={{ color: "orange", fontWeight: "500" }}>OutLead Solutions</span></p>
                     </div>
                 </div>
             </section>

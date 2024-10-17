@@ -76,7 +76,7 @@ const serviceData = {
                             <p>Use tailored, complete solutions
                                 with expert craftsmanship to
                                 ensure your brand stands out
-                                consistently and effectively</p>
+                                consistently and effectively.</p>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1600">
@@ -444,7 +444,7 @@ const serviceData = {
                         </div>
                         <div>
                             <img src={GRAPHICSDESIGNING} alt="" />
-                            <h4>GRAPHICS DESIGNING
+                            <h4>GRAPHIC DESIGNING
                             </h4>
                             <p>Graphic design is essential in web development, creating visually appealing and user-friendly websites. We integrate stunning visuals with intuitive layouts, enhancing user experience.</p>
                         </div>
