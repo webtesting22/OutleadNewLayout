@@ -244,7 +244,11 @@ const serviceData = {
                             data-aos-duration="1900">
                             <h4>
                                 LINKEDIN</h4>
-                            <p>To drive engagement, we create Twitter posts that are informative  eye-catching, and aligned with your brand.</p>
+                            <p>Use LinkedIn to post creatives
+                                that achieve professional,
+                                impactful designs and enhance
+                                your brand’s presence and
+                                credibility.</p>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="2100">
