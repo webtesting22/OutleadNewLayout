@@ -52,6 +52,10 @@ import KeywordResearch from "./IconsImages/37.png"
 import OptimizeContent from "./IconsImages/36.png"
 import TechnicalSEO from "./IconsImages/35.png"
 import MonitorAdjust from "./IconsImages/34.png"
+import Instagram from "./IconsImages/61.png"
+import Facebook from "./IconsImages/62.png"
+import Linkedin from "./IconsImages/63.png"
+import Twitt from "./IconsImages/64.png"
 const serviceData = {
     'branding': {
         title: "Branding",
@@ -230,18 +234,21 @@ const serviceData = {
                     <div className='ProcessDefined'>
                         <div data-aos="fade-up"
                             data-aos-duration="1300">
+                            <img src={Instagram} alt="" />
                             <h4>INSTAGRAM
                             </h4>
                             <p>To create a visually appealing Instagram grid, we maintain a consistency and aesthetics with a cohesive color palette and personalized graphics for content formats like photos, videos, and reels.</p>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1600">
+                            <img src={Facebook} alt="" />
                             <h4>FACEBOOK
                             </h4>
                             <p>We design high-quality visuals, cohesive color schemes that will keep your feed dynamic while reflecting your brand’s unique voice.</p>
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="1900">
+                            <img src={Linkedin} alt="" />
                             <h4>
                                 LINKEDIN</h4>
                             <p>Use LinkedIn to post creatives
@@ -252,6 +259,7 @@ const serviceData = {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="2100">
+                            <img src={Twitt} alt="" />
                             <h4>TWITTER
                             </h4>
                             <p>To drive engagement, we create Twitter posts that are informative  eye-catching, and aligned with your brand.</p>
