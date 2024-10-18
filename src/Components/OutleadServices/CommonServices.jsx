@@ -146,7 +146,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
-                                    <img src="/images/16.png" alt="" />
+                                    <img src="/images/233.png" alt="" />
                                     <div>
                                         <p>Create a versatile yet simple logo
                                             that looks great on all platforms
