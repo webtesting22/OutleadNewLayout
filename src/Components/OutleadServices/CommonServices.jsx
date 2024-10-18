@@ -19,6 +19,7 @@ import CommertialShoot from "./Images/CommertialShoot.png"
 import VideoShoot from "./Images/VideoShoot.png"
 import ColdEmailing from "./Images/ColdEmailing.png"
 import SEO from "./Images/SEO.png"
+import Vaar from "./Images/vaar.png"
 
 
 
@@ -127,6 +128,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/3.png" alt=""></img>
                                     <div>
                                         <p>Use tailored, complete solutions
                                             with expert craftsmanship to
@@ -143,6 +145,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/11.png" alt="" />
                                     <div>
                                         <p>Create a versatile yet simple logo
                                             that looks great on all platforms
@@ -169,6 +172,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/21.png" alt="" />
                                     <div>
                                         <p>We craft visually striking and
                                             expertly tailored brochures that
@@ -186,6 +190,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/22.png" alt="" />
                                     <div>
                                         <p>Elevate your workspace with our
                                             premium office stationery,
@@ -276,6 +281,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/41.png" alt="" />
                                     <div>
                                         <p>To create a visually appealing
                                             Instagram grid, we maintain a
@@ -295,6 +301,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/50.png" alt="" />
                                     <div>
                                         <p>We design high-quality visuals,
                                             cohesive color schemes that will
@@ -323,6 +330,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/58.png" alt="" />
                                     <div>
                                         <p>To drive engagement, we create
                                             Twitter posts that are informative
@@ -339,6 +347,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/66.png" alt="" />
                                     <div>
                                         <p>Use LinkedIn to post creatives
                                             that achieve professional,
@@ -414,6 +423,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/67.png" alt="" />
                                     <div>
                                         <p>An example of a tailored-approach,
                                             targeting a pre-defined
@@ -486,6 +496,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/73.jpg" alt="" />
                                     <div>
                                         <p>An engaging online platform
                                             with captivating graphical
@@ -494,6 +505,29 @@ const serviceData = {
                                             online visibility.</p>
                                     </div>
                                 </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ WEBSITE DEVELOPMENT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="1300">
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <img src="/images/80.jpg" alt="" />
+                                    <div>
+                                        <p>A professional website
+                                            designed with an incredibly
+                                            amusing homepage to
+                                            exhibit the projects</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={Vaar} alt="" />
+                                </div>
+
                             </Col>
                         </Row>
                     </div>
@@ -563,6 +597,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/231.png" alt="" />
                                     <div>
                                         <p>Unlock new growth
                                             opportunities and engage your
@@ -580,6 +615,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/91.png" alt="" />
                                     <div>
                                         <p>Designed to meet your specific
                                             objectives, our strategies deliver
@@ -673,6 +709,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/103.png" alt="" />
                                     <div>
                                         <p>Our expert team combines
                                             technical skill with creative flair to
@@ -689,6 +726,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/104.png" alt="" />
                                     <div>
                                         <p>Receive stunning, high-quality
                                             images that showcase your
@@ -717,6 +755,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                    <img src="/images/232.png" alt="" />
                                     <div>
                                         <p>Elevate your marketing with
                                             high-quality, impactful commercial
@@ -734,6 +773,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                <img src="/images/114.png" alt="" />
                                     <div>
                                         <p>Capture breathtaking aerial views
                                             and stunning time-lapse sequences
@@ -816,6 +856,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
+                                <img src="/images/119.png" alt="" />
                                     <div>
                                         <p>An example of creating databases
                                             and sequences of different emails
@@ -889,12 +930,12 @@ const serviceData = {
                         </Col>
                         <Col lg={8} md={24}>
                             <div className='RightSideContentInfo'>
+                            <img src="/images/1211.png" alt="" />
                                 <div>
-                                    <p>An example of creating databases
-                                        and sequences of different emails
-                                        to be sent to a specific
-                                        demographic over a pre-defined
-                                        time period.</p>
+                                    <p>Analytics showcasing the progress
+                                        of different SEO and Google Ads
+                                        Campaigns set up for an Ecommerce fashion brand.
+                                    </p>
                                 </div>
                             </div>
 
