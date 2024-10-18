@@ -223,8 +223,10 @@
   }
 
   .RightSideContentInfo img{
-    height: 120px;
-    width: 200px;
-    margin-bottom: 20px;
+   width: 50%;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+   margin-bottom: 20px;
+
   }
   
