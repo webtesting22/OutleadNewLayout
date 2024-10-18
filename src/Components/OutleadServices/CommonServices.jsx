@@ -20,6 +20,7 @@ import VideoShoot from "./Images/VideoShoot.png"
 import ColdEmailing from "./Images/ColdEmailing.png"
 import SEO from "./Images/SEO.png"
 import Vaar from "./Images/vaar.png"
+import Bebeta from "./Images/bb.png"
 
 
 
@@ -145,7 +146,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
-                                    <img src="/images/11.png" alt="" />
+                                    <img src="/images/16.png" alt="" />
                                     <div>
                                         <p>Create a versatile yet simple logo
                                             that looks great on all platforms
@@ -207,6 +208,28 @@ const serviceData = {
                                     <img src={OfficeStationary} alt="" />
                                 </div>
 
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='BrandingServiceExplaination'>
+                        <h4>/ BRAND KIT</h4>
+                        <Row data-aos="fade-up"
+                            data-aos-duration="2100">
+                            <Col lg={16} md={24}>
+                                <div className='CommonServicesImageContainer'>
+                                    <img src={Bebeta} alt="" />
+                                </div>
+                            </Col>
+                            <Col lg={8} md={24}>
+                                <div className='RightSideContentInfo'>
+                                    <img src="/images/11bb.png" alt=""></img>
+                                    <div>
+                                        <p> We craft tailored brand elements
+                                            that ensure consistency and
+                                            make a lasting impact across all
+                                            platforms.</p>
+                                    </div>
+                                </div>
                             </Col>
                         </Row>
                     </div>
@@ -773,7 +796,7 @@ const serviceData = {
                             data-aos-duration="1300">
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
-                                <img src="/images/114.png" alt="" />
+                                    <img src="/images/114.png" alt="" />
                                     <div>
                                         <p>Capture breathtaking aerial views
                                             and stunning time-lapse sequences
@@ -856,7 +879,7 @@ const serviceData = {
                             </Col>
                             <Col lg={8} md={24}>
                                 <div className='RightSideContentInfo'>
-                                <img src="/images/119.png" alt="" />
+                                    <img src="/images/119.png" alt="" />
                                     <div>
                                         <p>An example of creating databases
                                             and sequences of different emails
@@ -930,7 +953,7 @@ const serviceData = {
                         </Col>
                         <Col lg={8} md={24}>
                             <div className='RightSideContentInfo'>
-                            <img src="/images/1211.png" alt="" />
+                                <img src="/images/1211.png" alt="" />
                                 <div>
                                     <p>Analytics showcasing the progress
                                         of different SEO and Google Ads
